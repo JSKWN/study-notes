@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "17458680881655be",
@@ -155,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "딕셔너리(dict) 의 개요"
             }
           },
           {
@@ -171,6 +171,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "ad273721d489353b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -192,15 +202,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5445fef72ee5c504",
+  "active": "b9a044a755c39478",
   "lastOpenFiles": [
-    "obsidian/Templates/blog_post_template.md",
+    "2025-11-27.md",
     "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
+    "무제.base",
+    "무제 1.base",
+    "obsidian/Templates/blog_post_template.md",
     "obsidian/Github 테스트용.md",
     "obsidian/Study Notes/Computer Science/Languages/C++",
     "obsidian/Study Notes/Computer Science/Languages/Python",
     "obsidian/Study Notes/Computer Science/Languages",
-    "obsidian/Study Notes/Computer Science",
-    "무제.base"
+    "obsidian/Study Notes/Computer Science"
   ]
 }

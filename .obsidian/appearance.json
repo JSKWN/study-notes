@@ -1,7 +1,8 @@
 {
   "theme": "obsidian",
-  "interfaceFontFamily": "Noto Sans KR",
-  "textFontFamily": "Noto Sans KR",
+  "interfaceFontFamily": "나눔고딕OTF",
+  "textFontFamily": "나눔고딕OTF",
   "baseFontSize": 14,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "cssTheme": "Minimal"
 }

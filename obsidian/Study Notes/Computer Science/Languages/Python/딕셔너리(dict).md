@@ -5,6 +5,7 @@ categories: []
 tags: []
 keywords:
   - 해시가능(Hashable)
+  - 불변(Immutable)
 ---
 ## 요약
 ---
@@ -37,13 +38,99 @@ keywords:
 	- 튜플을 구성하는 **모든 요소가 불변**해야함
 	- 튜플은 불변 타입이나, 튜플 내부에 리스트처럼 변경 가능한(Mutable) 객체가 포함되어 있다면 해시 불가능(Unhashable)하므로 키로 사용할 수 없음
 	
-
 ## 3. 요소 접근 (Key Lookup)
-컨테이너형 자료형은 set을 제외하고는 모두 대괄호([])를 이용해 값을 조회 (서브스크립션)
+---
+컨테이너형 자료형은 set을 제외하고는 모두 대괄호(`[]`)를 이용해 값을 조회 (서브스크립션)
 
-- 키를 이용한 값 접근 dict[key] 
-	- 객체 + 대괄호'[]'를 사용하는 접근법
+1. 키를 이용한 값 접근 dict[key] 
+	- 객체 + 대괄호(`[]`)를 사용하는 접근법
 	- 직접 접근하여 값(value)를 얻음. 딕셔너리 내부에 해당 키가 없으면 `KeyError` 예외 발생
 	- 내부적으로는 \_\_getitem\_\_ 메서드가 호출
-- 메서드를 활용한 접근법 .get(key, defualt)
-	- 객체.get(key, default_value)를 통해 값(value)를 얻음
+	
+2. 메서드를 활용한 접근법 .get(key, defualt)
+	- 객체.get(key, default)를 통해 값(value)를 얻음
+	- 키가 존재하지 않을 때, 에러를 발생시키는 대신 None 또는 사용자가 지정한 기본값(default)을 반환
+
+3. 불린(boolean)형 반환 -> `Key`의 존재여부만 확인
+	- key in dict -> boolean (True, False) 반환
+	```Python
+	  # 예제1)
+	  menu = {"사과": 2500, "파인애플": 5000}
+	  print("사과" in menu) # True 출력
+	  
+	  # 예제2)
+	  user_id = {"uid_1524": "kwon", "uid_2221": "Han"}
+	  target_uid = "uid_1524"
+	  if target_uid in user_id:
+			  print(user_id[target_uid]) # '딕셔너리객체[키]'를 이용해 값(value)에 접근
+		else:
+				print("해당 id에 해당하는 이름이 없습니다.") 
+	  ```
+
+
+## 4. `Key-Value`쌍 추가, 딕셔너리 병합
+---
+1. 새 키-값쌍 추가
+	- dict[key] = value
+		- 딕셔너리 객체를 대괄호 안의 키(`[Key]`)로 접근한 후, 해당 키(key)에 대한 값(value)을 할당
+		- 이미 존재하면 기존 값을 덮어씀(Overwrite)
+2. 병합 연산자 (`|`)
+	- new_dict = dict1 | dict2 와 같이, 파이프 연산자를 이용해 두 딕셔너리를 합친 새 딕셔너리 생성
+
+
+## 5. 삭제
+---
+- del dict[key]
+	- 해당 키를 딕셔너리에서 제거, 반환값은 없음
+- pop(key, default)
+	- 키를 제거함과 동시에 그 값을 반환
+	- default 인자를 주지 않으면, key가 없을 경우 KeyError 발생
+
+## 6. 딕셔너리 객체 순회(Iteration)
+---
+- 파이썬 딕셔너리는 키와 값을 효율적으로 다루기 위해 뷰 객체(View Objects)를 사용
+	- 뷰 객체: `dict.keys()`, `dict.values()`, `dict.items()`
+	- 뷰 객체는 원본을 실시간으로 반영(동적반영)하는 특징이 있으므로, 딕셔너리 객체에 새로운 값이 추가되면 즉시 반영됨
+- 딕셔너리 또한 이터러블(iterable) 객체이므로 직접 for문에 활용 가능
+
+1. 딕셔너리 객체를 for문에 직접 이용
+	- for문의 변수에는 키(key) 가 담기게 됨
+	```Python
+	  dict = {'a':1, 'b':2}
+	  for key in dict:
+			  print(k) # a, b 출력됨
+	  ```
+
+2. 키(key) 또는 값(value)만 추출
+	- `dict.keys()`
+	- `dict.values()`
+
+3. (⭐주로 사용) 키-값 쌍 동시 추출
+	- `dict.items()`
+	```Python
+	for k, v in d.items():
+		print(k, v) 
+	```
+
+
+## 7. 키(key) 또는 값(value)의 리스트를 얻고 싶을 경우 -> list() 형 변환
+---
+- (⭐주로 사용) `list(딕셔너리.keys())`, `list(딕셔너리.values())`를 이용하면 됨
+```Python
+  data = {"A": 10, "B": 20, "C": 30} 
+  
+  # 방법 1: 질문하신 방법 (명시적)
+  keys_list1 = list(data.keys()) # 결과: ['A', 'B', 'C']
+  
+  # 방법 2: 더 짧은 방법 (추천) 
+  keys_list2 = list(data) # 결과: ['A', 'B', 'C']
+  ```
+
+- `딕셔너리.items()`를 이용할 경우, `튜플 (key, value)`의 리스트로 반환됨
+```Python
+  d = {"A": 10, "B": 20} # 뷰 객체를 리스트로 변환
+  
+  items_list = list(d.items()) print(items_list) 
+  # 출력 결과: [('A', 10), ('B', 20)]
+  ```
+
