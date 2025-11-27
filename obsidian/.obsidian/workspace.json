@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "7f8097a9e7da2fc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccd80894467b2c60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "590e11fd81a44064",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/blog_post_template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "blog_post_template"
+            }
+          },
+          {
+            "id": "548e864abc46939d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Study Notes/Machine Learning/폴더 분류.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "폴더 분류"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b49ffc1bdc0a5d33",
+    "type": "split",
+    "children": [
+      {
+        "id": "97ab4a09e2ad5750",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44ada42eaedeab82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "5fec0a56f6382871",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "38d8c2cb921fe2ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "016b322847de207b",
+    "type": "split",
+    "children": [
+      {
+        "id": "509cc377d7c156fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55bdb84bc4b36963",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diffusion Models/Diffusion 메커니즘 정리.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Diffusion 메커니즘 정리 의 백링크"
+            }
+          },
+          {
+            "id": "d1e8dead528c6b3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diffusion Models/Diffusion 메커니즘 정리.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Diffusion 메커니즘 정리 의 나가는 링크"
+            }
+          },
+          {
+            "id": "21582fcfcab5439f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "9a6116ea6ee78628",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "2e7f5b74adec017d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Study Notes/Machine Learning/폴더 분류.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "폴더 분류 의 개요"
+            }
+          },
+          {
+            "id": "34a9fc5e2b367e9c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "44ada42eaedeab82",
+  "lastOpenFiles": [
+    "무제.base",
+    "Study Notes/Machine Learning/폴더 분류.md",
+    "무제.canvas",
+    "Study Notes",
+    "Study Notes/Machine Learning/Model/Components",
+    "Study Notes/Machine Learning/Model/Base Architecture/Diffusion/Diffusion 메커니즘 정리.md",
+    "Machine Learning/Training Strategy/무제",
+    "Study Notes/Machine Learning/Model/Base Architecture/CNN",
+    "Study Notes/Machine Learning/Model/Base Architecture/Transformer",
+    "Study Notes/Machine Learning/Model/Base Architecture",
+    "Study Notes/Machine Learning/System Efficiency",
+    "Study Notes/Machine Learning/Training Strategy",
+    "Study Notes/Machine Learning/Model",
+    "Templates/blog_post_template.md",
+    "2025-11-26.md",
+    "환영합니다!.md"
+  ]
+}
