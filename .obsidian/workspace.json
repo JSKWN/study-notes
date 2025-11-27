@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Github 테스트용.md",
+                "file": "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Github 테스트용"
+              "title": "딕셔너리(dict)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "17458680881655be",
@@ -177,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,14 +192,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9a044a755c39478",
+  "active": "5445fef72ee5c504",
   "lastOpenFiles": [
+    "obsidian/Templates/blog_post_template.md",
+    "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
+    "obsidian/Github 테스트용.md",
     "obsidian/Study Notes/Computer Science/Languages/C++",
     "obsidian/Study Notes/Computer Science/Languages/Python",
     "obsidian/Study Notes/Computer Science/Languages",
     "obsidian/Study Notes/Computer Science",
-    "obsidian/Templates/blog_post_template.md",
-    "obsidian/Github 테스트용.md",
     "무제.base"
   ]
 }

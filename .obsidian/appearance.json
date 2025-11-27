@@ -1,1 +1,7 @@
-{}
+{
+  "theme": "obsidian",
+  "interfaceFontFamily": "Noto Sans KR",
+  "textFontFamily": "Noto Sans KR",
+  "baseFontSize": 14,
+  "baseFontSizeAction": true
+}
