@@ -11,14 +11,14 @@
             "id": "5445fef72ee5c504",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
-                "bFile": "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
-                "aRef": ""
+                "file": "obsidian/Study Notes/Machine Learning/폴더 분류.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 딕셔너리(dict)"
+              "icon": "lucide-file",
+              "title": "폴더 분류"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 292.50714111328125
   },
   "right": {
     "id": "17458680881655be",
@@ -95,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "obsidian/Study Notes/Machine Learning/폴더 분류.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "폴더 분류 의 백링크"
             }
           },
           {
@@ -113,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "obsidian/Study Notes/Machine Learning/폴더 분류.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "폴더 분류 의 나가는 링크"
             }
           },
           {
@@ -183,13 +184,25 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "8f70d2e9ffa435d7",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "obsidian/Study Notes/Machine Learning/폴더 분류.md"
+              },
+              "icon": "lucide-info",
+              "title": "폴더 분류 의 파일 속성"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 403.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,17 +216,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5445fef72ee5c504",
+  "active": "9099e579ef233cbb",
   "lastOpenFiles": [
+    "obsidian/Study Notes/Machine Learning/Vision Task/Segmentation/Semantic Segmentation",
+    "obsidian/Study Notes/Machine Learning/Vision Task/Segmentation/적용 사례",
+    "obsidian/Study Notes/Machine Learning/Vision Task/Object Detection/적용 사례",
+    "obsidian/Study Notes/Machine Learning/Vision Task/Classification/적용 사례",
+    "obsidian/Study Notes/Machine Learning/Vision Task/Classification",
+    "obsidian/Study Notes/Machine Learning/Vision Task/Object Detection",
+    "obsidian/Study Notes/Machine Learning/Vision Task/Segmentation",
+    "obsidian/Study Notes/Machine Learning/Vision Task",
+    "obsidian/Study Notes/Journal/2025-11-28.md",
+    "obsidian/Study Notes/Machine Learning/폴더 분류.md",
+    "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Diffusion/Diffusion 메커니즘 정리.md",
+    "obsidian/Study Notes/Journal",
     "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
     "2025-11-27.md",
     "무제.base",
     "무제 1.base",
     "obsidian/Templates/blog_post_template.md",
-    "obsidian/Github 테스트용.md",
-    "obsidian/Study Notes/Computer Science/Languages/C++",
-    "obsidian/Study Notes/Computer Science/Languages/Python",
-    "obsidian/Study Notes/Computer Science/Languages",
-    "obsidian/Study Notes/Computer Science"
+    "obsidian/Github 테스트용.md"
   ]
 }

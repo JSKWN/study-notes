@@ -4,5 +4,6 @@
   "textFontFamily": "나눔고딕OTF",
   "baseFontSize": 14,
   "baseFontSizeAction": true,
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "accentColor": ""
 }
