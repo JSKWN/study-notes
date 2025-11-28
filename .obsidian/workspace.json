@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/폴더 분류.md",
+                "file": "obsidian/Study Notes/Journal/기술 탐색.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "폴더 분류"
+              "title": "기술 탐색"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/폴더 분류.md",
+                "file": "obsidian/Study Notes/Journal/기술 탐색.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "폴더 분류 의 백링크"
+              "title": "기술 탐색 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/폴더 분류.md",
+                "file": "obsidian/Study Notes/Journal/기술 탐색.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "폴더 분류 의 나가는 링크"
+              "title": "기술 탐색 의 나가는 링크"
             }
           },
           {
@@ -191,10 +191,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/폴더 분류.md"
+                "file": "obsidian/Study Notes/Journal/기술 탐색.md"
               },
               "icon": "lucide-info",
-              "title": "폴더 분류 의 파일 속성"
+              "title": "기술 탐색 의 파일 속성"
             }
           }
         ],
@@ -218,22 +218,24 @@
   },
   "active": "9099e579ef233cbb",
   "lastOpenFiles": [
+    "obsidian/Study Notes/Machine Learning/Framework & Tool",
+    "obsidian/Study Notes/Journal/2025-11-28 공부 계획.md",
+    "obsidian/Study Notes/Machine Learning/폴더 분류.md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/Quantization",
+    "obsidian/Study Notes/Journal/기술 탐색.md",
+    "obsidian/Study Notes/Machine Learning/Making LLMs more accurate by using all of their layers.pdf",
+    "2025-11-28 (2).md",
+    "obsidian/Study Notes/ETC",
+    "obsidian/Study Notes/ETC/방송대 2학기 공부기록",
+    "obsidian/Study Notes/Computer Science/Software Engineering/Testing & Debugging",
+    "obsidian/Study Notes/Computer Science/Software Engineering/Design Patterns",
+    "obsidian/Study Notes/Computer Science/Software Engineering",
     "obsidian/Study Notes/Machine Learning/Vision Task/Segmentation/Semantic Segmentation",
     "obsidian/Study Notes/Machine Learning/Vision Task/Segmentation/적용 사례",
-    "obsidian/Study Notes/Machine Learning/Vision Task/Object Detection/적용 사례",
-    "obsidian/Study Notes/Machine Learning/Vision Task/Classification/적용 사례",
-    "obsidian/Study Notes/Machine Learning/Vision Task/Classification",
-    "obsidian/Study Notes/Machine Learning/Vision Task/Object Detection",
-    "obsidian/Study Notes/Machine Learning/Vision Task/Segmentation",
-    "obsidian/Study Notes/Machine Learning/Vision Task",
-    "obsidian/Study Notes/Journal/2025-11-28.md",
-    "obsidian/Study Notes/Machine Learning/폴더 분류.md",
     "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Diffusion/Diffusion 메커니즘 정리.md",
-    "obsidian/Study Notes/Journal",
     "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
     "2025-11-27.md",
-    "무제.base",
-    "무제 1.base",
     "obsidian/Templates/blog_post_template.md",
     "obsidian/Github 테스트용.md"
   ]
