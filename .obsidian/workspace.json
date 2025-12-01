@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더에서 마스킹을 사용하는 이유.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -227,7 +227,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9099e579ef233cbb",
+  "active": "5445fef72ee5c504",
   "lastOpenFiles": [
     "2025-12-01.md",
     "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더에서 마스킹을 사용하는 이유.md",
