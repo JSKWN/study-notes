@@ -1,0 +1,36 @@
+---
+title: "Speculative Decoding"
+date: 2025-12-01 09:07:53
+categories: []
+tags: []
+keywords: []
+---
+25-11-28 초안작성
+
+# 추론 속도 향상 기법
+---
+## 추측 디코딩(Speculative Decoding)
+- 구글 리서치 (https://research.google/blog/looking-back-at-speculative-decoding/)
+- 엔비디어 디벨로퍼 (https://developer.nvidia.com/ko-kr/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/)
+- 블로그 논문 리뷰 (https://velog.io/@2mini/paper-review-Unlocking-Efficiency-in-Large-Language-Model-Inference-A-Comprehensive-Survey-of-Speculative-Decoding)
+- 내용 요약 (https://developer.nvidia.com/ko-kr/blog/an-introduction-to-speculative-decoding-for-reducing-latency-in-ai-inference/)
+	- 개요: 자기회귀 방식은 토큰을 하나씩 순차적으로 생성 → 매 토큰마다 전체 모델을 다시 실행, 가중치 로딩 등 비효율적임.
+	- Speculative Decoding은 추론 성능을 최적화하기 위한 기법.
+		- 여러 토큰을 한번에 미리 예측하고 검증하는 방식
+		- 고성능 모델에 가벼운 드래프트 메커니즘을 결합
+			- 드래프트 모델(경량 모델)이 여러개의 다음 토큰들을 빠르게 제안하면, 대상 모델은 한번의 포워드 패스로 검증
+			- 여러개의 토큰을 제안한 뒤, 고성능 모델은 일부 접두어(prefix)를 수용하고 그 이후에 생성을 이어감
+			- 마치 연구소의 수석 과학자가 조수에게 반복적인 실험을 맡기고 자신은 검증 및 방향설정에 집중하는 형태와 유사
+	- Draft-Target 방식
+		- speculative decoding의 전통적인 구현, 두 개의 모델이 함께 작동하는 방식
+		- 동일한 데이터 분포로 학습된 소형 모델이, 초안(draft)를 생성. 소형 모델을 ‘드래프트 모델’이라고 표현![[speculative-decoding-draft-target-approach-0186.jpg]]
+		- `드래프트 생성` → `병렬 검증` → `거절 샘플링` 단계를 거침
+			1. 드래프트 생성
+				- 소형 모델(=드래프트 모델)이 여러 개의 후보 토큰(3~12개)을 생성
+				- 드래프트 모델은 고성능 모델(Target Model)의 출력을 정답(ground truth)으로 취급
+			2. 병렬 검증
+				- Target model은 ‘입력 시퀀스’ + ‘드래프트 토큰들’을 한번의 포워드 패스로 동시에 처리하며, 각 위치에 대한 확률 분포를 계산
+				- KV 캐시?
+				- 기존 접두어 값들은 이미 계산되어 저장
+			3. 거절 샘플링: 
+			- ![[speculative-decoding-verification-phase-target-model.jpeg]]

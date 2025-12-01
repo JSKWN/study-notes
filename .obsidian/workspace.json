@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Study Notes/Journal/기술 탐색.md",
+                "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더에서 마스킹을 사용하는 이유.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "기술 탐색"
+              "title": "디코더에서 마스킹을 사용하는 이유"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Study Notes/Journal/기술 탐색.md",
+                "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더에서 마스킹을 사용하는 이유.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "기술 탐색 의 백링크"
+              "title": "디코더에서 마스킹을 사용하는 이유 의 백링크"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Study Notes/Journal/기술 탐색.md",
+                "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더에서 마스킹을 사용하는 이유.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "기술 탐색 의 나가는 링크"
+              "title": "디코더에서 마스킹을 사용하는 이유 의 나가는 링크"
             }
           },
           {
@@ -206,10 +206,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian/Study Notes/Journal/기술 탐색.md"
+                "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더에서 마스킹을 사용하는 이유.md"
               },
               "icon": "lucide-info",
-              "title": "기술 탐색 의 파일 속성"
+              "title": "디코더에서 마스킹을 사용하는 이유 의 파일 속성"
             }
           }
         ],
@@ -233,17 +233,30 @@
   },
   "active": "6fab78e02375d692",
   "lastOpenFiles": [
+    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
+    "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더에서 마스킹을 사용하는 이유.md",
+    "obsidian/Study Notes/Machine Learning/Training, Tuning/강화학습-PRM (과정보상모델) (임시).md",
+    "obsidian/Study Notes/Machine Learning/Training, Tuning/CoT 파인튜닝 (임시).md",
     "obsidian/Study Notes/Machine Learning/폴더 분류.md",
     "obsidian/Study Notes/Machine Learning/Making LLMs more accurate by using all of their layers.pdf",
+    "obsidian/Study Notes/Journal/기술 탐색.md",
+    "Pasted image 20251201101626.png",
+    "Pasted image 20251201101623.png",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/K,V 캐싱.md",
+    "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Diffusion/Flow Matching (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/PagedAttention (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/MoE (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/MQU, GQA (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/FlashAttention (임시).md",
+    "obsidian/Study Notes/Journal/2025-11-28 공부 계획.md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding/논문리뷰/논문리뷰 Eagle-3.md",
+    "speculative-decoding-verification-phase-target-model.jpeg",
     "Pasted image 20251128164941.png",
     "Images",
     "Pasted image 20251128164946.png",
     "Images/speculative-decoding-draft-target-approach-0186.jpg",
-    "obsidian/Study Notes/Journal/기술 탐색.md",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding/논문리뷰/논문리뷰 Eagle-3.md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding/논문리뷰",
     "obsidian/Study Notes/Machine Learning/Framework & Tool",
-    "obsidian/Study Notes/Journal/2025-11-28 공부 계획.md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding",
     "obsidian/Study Notes/Machine Learning/System Efficiency/Quantization",
     "2025-11-28 (2).md",
