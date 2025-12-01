@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
-                "mode": "preview",
+                "file": "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유)"
+              "title": "Speculative Decoding"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
+                "file": "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유) 의 백링크"
+              "title": "Speculative Decoding 의 백링크"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
+                "file": "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유) 의 나가는 링크"
+              "title": "Speculative Decoding 의 나가는 링크"
             }
           },
           {
@@ -192,10 +192,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md"
+                "file": "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md"
               },
               "icon": "lucide-info",
-              "title": "디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유) 의 파일 속성"
+              "title": "Speculative Decoding 의 파일 속성"
             }
           },
           {
@@ -213,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5,
-    "collapsed": true
+    "width": 403.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -231,8 +230,9 @@
   },
   "active": "5445fef72ee5c504",
   "lastOpenFiles": [
-    "2025-12-01.md",
+    "Pasted image 20251201151828.png",
     "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
+    "2025-12-01.md",
     "obsidian/Study Notes/Journal/기술 탐색.md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/K,V 캐싱.md",
     "obsidian/Study Notes/Journal/2025-12-01.md",
