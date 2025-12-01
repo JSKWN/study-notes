@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.50714111328125,
-    "collapsed": true
+    "width": 253.5
   },
   "right": {
     "id": "17458680881655be",
@@ -182,8 +181,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -204,8 +203,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -228,9 +227,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5445fef72ee5c504",
+  "active": "b9a044a755c39478",
   "lastOpenFiles": [
-    "Pasted image 20251201151828.png",
+    "obsidian/Used Images/Pasted image 20251201151828.png",
     "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
     "2025-12-01.md",
     "obsidian/Study Notes/Journal/기술 탐색.md",
@@ -242,10 +241,10 @@
     "2025-11-27.md",
     "obsidian/Study Notes/Machine Learning/폴더 분류.md",
     "obsidian/Study Notes/Machine Learning/Making LLMs more accurate by using all of their layers.pdf",
-    "Images/Pasted image 20251201101623.png",
-    "Images/speculative-decoding-draft-target-approach-0186.jpg",
-    "Images/speculative-decoding-verification-phase-target-model.jpeg",
-    "Images/Pasted image 20251201101626.png",
+    "obsidian/Used Images/Pasted image 20251201101623.png",
+    "obsidian/Used Images/speculative-decoding-draft-target-approach-0186.jpg",
+    "obsidian/Used Images/speculative-decoding-verification-phase-target-model.jpeg",
+    "obsidian/Used Images/Pasted image 20251201101626.png",
     "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
     "obsidian/Study Notes/Machine Learning/Training, Tuning/강화학습-PRM (과정보상모델) (임시).md",
     "obsidian/Study Notes/Machine Learning/Training, Tuning/CoT 파인튜닝 (임시).md",
@@ -256,7 +255,7 @@
     "obsidian/Study Notes/Machine Learning/System Efficiency/FlashAttention (임시).md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding/논문리뷰/논문리뷰 Eagle-3.md",
     "Pasted image 20251128164941.png",
-    "Images",
+    "obsidian/Used Images",
     "Pasted image 20251128164946.png",
     "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding/논문리뷰",
     "obsidian/Study Notes/Machine Learning/Framework & Tool",
