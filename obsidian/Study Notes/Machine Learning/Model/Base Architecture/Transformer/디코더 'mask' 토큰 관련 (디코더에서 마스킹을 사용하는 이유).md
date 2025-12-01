@@ -34,7 +34,8 @@ keywords:
 	- 입력: [SOS]
 	- Query: [SOS] (1행)
 	- Key: [SOS] (1열)
-		- | Q \| K    | [SOS] |
+
+| Q \| K    | [SOS] |
 | --------- | ----- |
 | Q1: [SOS] | V11   |
 <br>
