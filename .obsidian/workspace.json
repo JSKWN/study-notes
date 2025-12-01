@@ -227,14 +227,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b9a044a755c39478",
+  "active": "5445fef72ee5c504",
   "lastOpenFiles": [
+    "obsidian/Study Notes/Journal/2025-12-01.md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
     "obsidian/Used Images/Pasted image 20251201151828.png",
     "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
     "2025-12-01.md",
     "obsidian/Study Notes/Journal/기술 탐색.md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/K,V 캐싱.md",
-    "obsidian/Study Notes/Journal/2025-12-01.md",
     "무제.md",
     "obsidian/Study Notes/Journal/2025-11-28 공부 계획.md",
     "obsidian/Templates/blog_post_template.md",
@@ -245,7 +246,6 @@
     "obsidian/Used Images/speculative-decoding-draft-target-approach-0186.jpg",
     "obsidian/Used Images/speculative-decoding-verification-phase-target-model.jpeg",
     "obsidian/Used Images/Pasted image 20251201101626.png",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
     "obsidian/Study Notes/Machine Learning/Training, Tuning/강화학습-PRM (과정보상모델) (임시).md",
     "obsidian/Study Notes/Machine Learning/Training, Tuning/CoT 파인튜닝 (임시).md",
     "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Diffusion/Flow Matching (임시).md",
