@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
+                "file": "obsidian/Study Notes/etc/yaml 정리 및 파이썬 적용.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Speculative Decoding"
+              "title": "yaml 정리 및 파이썬 적용"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 253.5,
+    "collapsed": true
   },
   "right": {
     "id": "17458680881655be",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
+                "file": "obsidian/Study Notes/etc/yaml 정리 및 파이썬 적용.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "딕셔너리(dict) 의 개요"
+              "title": "yaml 정리 및 파이썬 적용 의 개요"
             }
           },
           {
@@ -203,8 +204,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -224,50 +225,54 @@
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5445fef72ee5c504",
+  "active": "9099e579ef233cbb",
   "lastOpenFiles": [
-    "obsidian/Study Notes/Journal/2025-12-01.md",
+    "copilot/copilot-conversations/yaml을_잘_사용하지_못하는데,_주요_사항_및_예시_등을_정리해@20251202_102426.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "obsidian/Study Notes/Journal/2025-12-02.md",
+    "obsidian/Study Notes/etc/yaml 정리 및 파이썬 적용.md",
+    "obsidian/Study Notes/ETC/무제",
+    "obsidian/Study Notes/etc",
+    "obsidian/Study Notes/Journal/깃헙 PAT 토큰.md",
+    "obsidian/Study Notes/Machine Learning/Training, Tuning/CoT 파인튜닝 (임시).md",
+    "obsidian/Study Notes/Machine Learning/Training, Tuning/강화학습-PRM (과정보상모델) (임시).md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
-    "obsidian/Used Images/Pasted image 20251201151828.png",
-    "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
-    "2025-12-01.md",
-    "obsidian/Study Notes/Journal/기술 탐색.md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/PagedAttention (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/MQU, GQA (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/MoE (임시).md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/K,V 캐싱.md",
-    "무제.md",
-    "obsidian/Study Notes/Journal/2025-11-28 공부 계획.md",
-    "obsidian/Templates/blog_post_template.md",
-    "2025-11-27.md",
-    "obsidian/Study Notes/Machine Learning/폴더 분류.md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/FlashAttention (임시).md",
+    "obsidian/Study Notes/Journal/기존 일지는 노션에서 옮길 것.md",
+    "obsidian/Used Images/Pasted image 20251201151828.png",
     "obsidian/Study Notes/Machine Learning/Making LLMs more accurate by using all of their layers.pdf",
     "obsidian/Used Images/Pasted image 20251201101623.png",
     "obsidian/Used Images/speculative-decoding-draft-target-approach-0186.jpg",
     "obsidian/Used Images/speculative-decoding-verification-phase-target-model.jpeg",
     "obsidian/Used Images/Pasted image 20251201101626.png",
-    "obsidian/Study Notes/Machine Learning/Training, Tuning/강화학습-PRM (과정보상모델) (임시).md",
-    "obsidian/Study Notes/Machine Learning/Training, Tuning/CoT 파인튜닝 (임시).md",
-    "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Diffusion/Flow Matching (임시).md",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/PagedAttention (임시).md",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/MoE (임시).md",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/MQU, GQA (임시).md",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/FlashAttention (임시).md",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding/논문리뷰/논문리뷰 Eagle-3.md",
     "Pasted image 20251128164941.png",
     "obsidian/Used Images",
     "Pasted image 20251128164946.png",
     "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding/논문리뷰",
     "obsidian/Study Notes/Machine Learning/Framework & Tool",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding",
-    "obsidian/Study Notes/Machine Learning/System Efficiency/Quantization",
-    "2025-11-28 (2).md",
-    "obsidian/Study Notes/ETC",
-    "obsidian/Study Notes/ETC/방송대 2학기 공부기록",
-    "obsidian/Study Notes/Computer Science/Software Engineering/Testing & Debugging",
-    "obsidian/Study Notes/Computer Science/Software Engineering/Design Patterns",
-    "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Diffusion/Diffusion 메커니즘 정리.md",
-    "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
-    "obsidian/Github 테스트용.md"
+    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding"
   ]
 }
