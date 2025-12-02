@@ -8,13 +8,13 @@ keywords: []
 # YAML 내용 정리
 ---
 1. \# yaml은 주석을 지원
-2.  test_string: Hello # 문자열에 따옴표는 선택사항
+2.  test_string: Hello     # 문자열에 따옴표는 선택사항
 3. 키(Key) 이름에 공백이 들어가도 상관없음
 	- my name is: ‘jskwon’
 4. 이스케이프 문자(\n 등) 사용시 주의
-	- my name is: "js\nkwon" # **큰따옴표(")**: \n을 **줄바꿈**으로 해석
-	- my name is: 'js\nkwon' # **작은따옴표(')**: \n을 **문자 그대로**(\와 n) 취급
-	- my name is: js\nkwon # **따옴표 없음**: 문자 그대로 취급
+	- my name is: "js\nkwon"     # 큰따옴표("): \n을 줄바꿈으로 해석
+	- my name is: 'js\nkwon'      # 작은따옴표('): \n을 문자 그대로(\와 n) 취급
+	- my name is: js\nkwon       # 따옴표 없음: 문자 그대로 취급
 5. 값 부분에 콜론(:)이 또 사용되면 에러 발생
 	-  :, #, *, &, [], {} 등의 기호가 값에 포함된다면 따옴표(" ")로 감싸는 것이 안전함
 	- (예: colon: "string:")

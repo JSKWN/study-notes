@@ -1,9 +1,10 @@
 {
-  "theme": "obsidian",
-  "interfaceFontFamily": "나눔고딕OTF",
-  "textFontFamily": "나눔고딕OTF",
-  "baseFontSize": 14,
+  "theme": "moonstone",
+  "interfaceFontFamily": "나눔고딕OTF,Noto Sans KR",
+  "textFontFamily": "나눔고딕OTF,Noto Sans KR",
+  "baseFontSize": 17,
   "baseFontSizeAction": true,
   "cssTheme": "Minimal",
-  "accentColor": ""
+  "accentColor": "",
+  "nativeMenus": false
 }
