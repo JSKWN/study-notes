@@ -1,1 +1,2 @@
-  # An Obsidian vault dedicated to studying CS and ML technologies.
+  # Study Notes for ML & CS
+  An Obsidian vault dedicated to studying ML and CS technologies.
