@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/MLOps/MLflow Build-Tracking 부분 정리.md",
-                "mode": "source",
+                "file": "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 사용법 요약.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MLflow Build-Tracking 부분 정리"
+              "title": "MLflow 사용법 요약"
             }
           }
         ]
@@ -229,17 +229,18 @@
   },
   "active": "1f3549303b7e8d78",
   "lastOpenFiles": [
-    "obsidian/Study Notes/Machine Learning/MLOps/used_images/Pasted image 20251203093425.png",
-    "obsidian/Study Notes/Machine Learning/MLOps/used_images/Pasted image 20251203092903.png",
-    "obsidian/Study Notes/Machine Learning/MLOps/used_images/Pasted image 20251203092522.png",
-    "obsidian/Study Notes/Machine Learning/MLOps/used_images",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Build-Tracking 부분 정리.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/used_images/Pasted image 20251203093425.png",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/used_images/Pasted image 20251203092903.png",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/used_images/Pasted image 20251203092522.png",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/used_images",
     "무제.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow Build-Tracking 부분 정리.md",
     "Pasted image 20251203093058.png",
     "Pasted image 20251203093100.png",
     "Pasted image 20251203093052.png",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow 사용법 요약.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/기존 프로젝트, MLflow 단계별 적용 과정.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 사용법 요약.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/기존 프로젝트, MLflow 단계별 적용 과정.md",
     "obsidian/Templates/blog_post_template.md",
     "무제.base",
     "obsidian/Study Notes/etc/yaml 정리 및 파이썬 적용.md",
@@ -270,10 +271,8 @@
     "obsidian/Study Notes/Machine Learning/Training, Tuning/CoT 파인튜닝 (임시).md",
     "obsidian/Study Notes/Machine Learning/Training, Tuning/강화학습-PRM (과정보상모델) (임시).md",
     "obsidian/Used Images/Pasted image 20251201151828.png",
-    "obsidian/Study Notes/Machine Learning/Making LLMs more accurate by using all of their layers.pdf",
     "obsidian/Used Images/Pasted image 20251201101623.png",
     "obsidian/Used Images/speculative-decoding-draft-target-approach-0186.jpg",
-    "obsidian/Used Images/speculative-decoding-verification-phase-target-model.jpeg",
-    "obsidian/Used Images/Pasted image 20251201101626.png"
+    "obsidian/Used Images/speculative-decoding-verification-phase-target-model.jpeg"
   ]
 }

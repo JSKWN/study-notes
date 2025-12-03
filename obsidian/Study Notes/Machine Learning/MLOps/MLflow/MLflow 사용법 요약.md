@@ -38,9 +38,9 @@ MLflow는 네 가지 component로 구성
 			- 별도의 데이터베이스 설정 필요 없음, 바로 실행 및 확인가능
 			- 명령어: 
 				- `mlflow ui`: 기본 옵션이며, 실행 시 127.0.0.1:5000으로 ui 페이지가 실행됨. 이 경우 <u>외부 환경에서 접속은 불가능</u>
-				- 외부 접속이 가능하도록 하려면 ``--host 0.0.0.0`` 옵션 이용
+				- ``--host 0.0.0.0`` 옵션 → 외부 접속 허용할 때 사용
 					- `mlflow ui –host 0.0.0.0 --port [포트번호]`
-				- 리눅스 서버에서 tmux를 이용한 백그라운드 실행시에는 `–backend-store-uri` 옵션 활용
+				- 리눅스 서버에서 tmux를 이용한 백그라운드 실행 시 `–backend-store-uri` 옵션 활용
 					- mlflow를 적용한 소스코드(`mlflow.start_run()`등)를 기준으로 `mlruns`폴더 까지의 상대경로를 입력해야함
 					- 예: 현재 소스 코드의 위치가 `experiments`폴더의 상위 디렉토리일 경우
 						- `mlflow ui --backend-store-uri experiments/mlruns --host 0.0.0.0 --port 5000`

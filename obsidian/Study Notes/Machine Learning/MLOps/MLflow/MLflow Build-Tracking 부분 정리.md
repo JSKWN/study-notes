@@ -74,7 +74,7 @@ MLflow Tracking은 **런(run)** 개념을 중심으로 구성됩니다. 런은
 
 실험은 특정 작업을 위해 런과 모델을 그룹화한 것입니다. CLI, API, 또는 UI를 사용하여 실험을 생성할 수 있습니다. MLflow API와 UI를 통해 실험을 생성하고 검색할 수도 있습니다. 런을 실험으로 구성하는 방법에 대한 자세한 내용은 '실험으로 런 정리하기(Organizing Runs into Experiments)'를 참조하세요.
 
-## 런 추적하기 (Tracking Runs)
+## 런 추적 (Tracking Runs)
 
 MLflow Tracking API는 런을 추적하기 위한 일련의 함수를 제공합니다. 예를 들어 mlflow.start_run()을 호출하여 새 런을 시작하고, mlflow.log_param() 및 mlflow.log_metric()과 같은 로깅 함수를 호출하여 각각 파라미터와 지표를 기록할 수 있습니다. API 사용에 대한 자세한 내용은 Tracking API 문서를 참조하세요.
 
@@ -105,7 +105,7 @@ mlflow.autolog()
 > **참고 (Note)**  
 > 별도의 서버/데이터베이스 구성이 없는 기본 상태에서 MLflow Tracking은 데이터를 로컬의 mlruns 디렉터리에 기록합니다. 팀과 결과를 공유하기 위해 원격 데이터베이스나 클라우드 스토리지 같은 다른 위치에 런을 기록하고 싶다면, 'MLflow Tracking 환경 설정' 섹션의 지침을 따르세요.
 
-## 프로그래밍 방식으로 기록된 모델 검색하기 (Searching Logged Models Programmatically)
+## 프로그래밍 방식으로 기록된 모델 검색 (Searching Logged Models Programmatically)
 
 MLflow 3는 mlflow.search_logged_models()를 통해 강력한 모델 검색 기능을 도입했습니다. 이 API를 사용하면 SQL과 유사한 구문을 사용하여 성능 지표, 파라미터, 모델 속성을 기반으로 실험 전반에 걸쳐 특정 모델을 찾을 수 있습니다.
 
@@ -148,7 +148,7 @@ loaded_model = mlflow.pyfunc.load_model(f"models:/{best_model.model_id}")
 
 포괄적인 예제와 고급 검색 패턴은 '기록된 모델 검색 가이드(Search Logged Models Guide)'를 참조하세요.
 
-## 프로그래밍 방식으로 런 조회하기 (Querying Runs Programmatically)
+## 프로그래밍 방식으로 런 조회 (Querying Runs Programmatically)
 
 MlflowClient를 사용하여 Tracking UI의 모든 기능에 프로그래밍 방식으로 접근할 수도 있습니다.
 
@@ -166,11 +166,11 @@ print(best_run.info)
 # {'run_id': '...', 'metrics': {'val_loss': 0.123}, ...}
 ```
 
-## 모델 추적하기 (Tracking Models)
+## 모델 추적 (Tracking Models)
 
 MLflow 3는 향상된 모델 추적 기능을 도입하여 단일 런 내에서 여러 모델 체크포인트를 기록하고 서로 다른 데이터셋에 대한 성능을 추적할 수 있게 합니다. 이는 다양한 훈련 단계에서 모델 체크포인트를 저장하고 비교하려는 딥러닝 워크플로우에 특히 유용합니다.
 
-### 모델 체크포인트 기록하기 (Logging Model Checkpoints)
+### 모델 체크포인트 기록 (Logging Model Checkpoints)
 
 모델 로깅 함수의 step 파라미터를 사용하여 훈련 중 여러 단계에서 모델 체크포인트를 기록할 수 있습니다. 기록된 각 모델은 나중에 참조할 수 있는 고유한 모델 ID를 받습니다.
 
@@ -205,7 +205,7 @@ with mlflow.start_run() as run:
             )
 ```
 
-### 지표를 모델 및 데이터셋에 연결하기 (Linking Metrics to Models and Datasets)
+### 지표를 모델 및 데이터셋에 연결 (Linking Metrics to Models and Datasets)
 
 MLflow 3에서는 지표를 특정 모델 체크포인트 및 데이터셋에 연결할 수 있어 모델 성능의 추적성을 높일 수 있습니다.
 
