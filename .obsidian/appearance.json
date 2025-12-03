@@ -1,10 +1,11 @@
 {
-  "theme": "moonstone",
-  "interfaceFontFamily": "나눔고딕OTF,Noto Sans KR",
-  "textFontFamily": "나눔고딕OTF,Noto Sans KR",
-  "baseFontSize": 17,
+  "theme": "system",
+  "interfaceFontFamily": "Noto Sans KR,Noto Serif KR,나눔고딕OTF",
+  "textFontFamily": "Noto Sans KR,Noto Serif KR,나눔고딕OTF",
+  "baseFontSize": 18,
   "baseFontSizeAction": true,
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "accentColor": "",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "enabledCssSnippets": []
 }

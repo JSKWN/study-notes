@@ -33,30 +33,68 @@ MLflow는 네 가지 component로 구성
 		- 매 실행마다 run_id 개념의 식별자를 가지는 폴더가 해당 mlruns 폴더 내부에 생성 
 	2. **웹 인터페이스 실행:** 웹 ui를 확인하기 위해서는 터미널에 `mlflow ui {추가옵션}`을 입력
 		- mlflow ui와 mlflow server는 웹 ui 및 API 실행이라는 동일한 기능을 가지나, 사용 목적 및 기본 설정에 차이가 있음
-			1. mlflow ui: 로컬 환경에서 실험 결과 확인 목적의 뷰어
-				- 기본 저장소: 명령어를 실행한 위치의 `./mlruns` 폴더를 읽음
-				- 별도의 데이터베이스 설정 필요 없음, 바로 실행 및 확인가능
-				- 명령어: 
-					- `mlflow ui`: 기본 옵션이며, 실행 시 127.0.0.1:5000으로 ui 페이지가 실행됨. 이 경우 <u>외부 환경에서 접속은 불가능</u>
-					- 외부 접속이 가능하도록 하려면 ``--host 0.0.0.0`` 옵션 이용
-						- `mlflow ui –host 0.0.0.0 --port [포트번호]`
-					- 리눅스 서버에서 tmux를 이용한 백그라운드 실행시에는 `–backend-store-uri` 옵션 활용
-						- mlflow를 적용한 소스코드(`mlflow.start_run()`등)를 기준으로 `mlruns`폴더 까지의 상대경로를 입력해야함
-						- 예: 현재 소스 코드의 위치가 `experiments`폴더의 상위 디렉토리일 경우
-							- `mlflow ui --backend-store-uri experiments/mlruns --host 0.0.0.0 --port 5000`
-			2. mlflow server: 협업/서버 구축용. 중앙 서버에서 활용 시 사용
-				 - 참고 블로그: https://mlops-for-mle.github.io/tutorial/docs/model-registry/mlflow-setup
-				 - 명령어: 백엔드 DB(PostgreSQL)와 아티팩트 저장소(S3)를 연결하여 서버를 띄우는 명령어
-					- `--backend-store-uri`: 메타데이터(실험 정보, 파라미터, 메트릭 등)를 저장할 관계형 데이터베이스 주소
-						- 형식: postgresql://<사용자>:<비밀번호>@<호스트>:<포트>/<데이터베이스명>       
-					- `--default-artifact-root` (또는 --artifacts-destination): 모델 파일, 이미지 등 대용량 파일이 저장될 위치   
-				    - `--artifacts-destination`: 서버가 S3 접근 권한을 가지고 클라이언트 요청을 대리(Proxy) 처리할 때 사용
-				    - `--default-artifact-root`: 클라이언트가 S3에 직접 접근하거나, 로컬 파일 시스템을 사용할 때 이용
-				    - `--host 0.0.0.0`: 로컬호스트(localhost) 뿐만 아니라 외부 네트워크에서의 접속을 허용 (Docker나 Kubernetes 환경에서 필수
+		1. mlflow ui: 로컬 환경에서 실험 결과 확인 목적의 뷰어
+			- 기본 저장소: 명령어를 실행한 위치의 `./mlruns` 폴더를 읽음
+			- 별도의 데이터베이스 설정 필요 없음, 바로 실행 및 확인가능
+			- 명령어: 
+				- `mlflow ui`: 기본 옵션이며, 실행 시 127.0.0.1:5000으로 ui 페이지가 실행됨. 이 경우 <u>외부 환경에서 접속은 불가능</u>
+				- 외부 접속이 가능하도록 하려면 ``--host 0.0.0.0`` 옵션 이용
+					- `mlflow ui –host 0.0.0.0 --port [포트번호]`
+				- 리눅스 서버에서 tmux를 이용한 백그라운드 실행시에는 `–backend-store-uri` 옵션 활용
+					- mlflow를 적용한 소스코드(`mlflow.start_run()`등)를 기준으로 `mlruns`폴더 까지의 상대경로를 입력해야함
+					- 예: 현재 소스 코드의 위치가 `experiments`폴더의 상위 디렉토리일 경우
+						- `mlflow ui --backend-store-uri experiments/mlruns --host 0.0.0.0 --port 5000`
+		2. mlflow server: 협업/서버 구축용. 중앙 서버에서 활용 시 사용
+			 - 참고 블로그: https://mlops-for-mle.github.io/tutorial/docs/model-registry/mlflow-setup
+			 - 명령어: 백엔드 DB(PostgreSQL)와 아티팩트 저장소(S3)를 연결하여 서버를 띄우는 명령어
+				- `--backend-store-uri`: 메타데이터(실험 정보, 파라미터, 메트릭 등)를 저장할 관계형 데이터베이스 주소
+					- 형식: postgresql://<사용자>:<비밀번호>@<호스트>:<포트>/<데이터베이스명>       
+				- `--default-artifact-root` (또는 --artifacts-destination): 모델 파일, 이미지 등 대용량 파일이 저장될 위치   
+					- `--artifacts-destination`: 서버가 S3 접근 권한을 가지고 클라이언트 요청을 대리(Proxy) 처리할 때 사용
+					- `--default-artifact-root`: 클라이언트가 S3에 직접 접근하거나, 로컬 파일 시스템을 사용할 때 이용
+					- `--host 0.0.0.0`: 로컬호스트(localhost) 뿐만 아니라 외부 네트워크에서의 접속을 허용 (Docker나 Kubernetes 환경에서 필수
+
+
+# 2. MLflow 훈련 적용 및 저장 위치 설정
+---
+1. Tracking URI 설정: MLflow 적용 후 실험 데이터(파라미터, 메트릭, 모델 등)가 특정 위치(로컬/서버)에 기록되도록 경로/주소 설정
 
 
 
 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(임시) 공식 문서상 지원 URI 형식이, 아래 3가지라는데 공식 문서에서 한번 확인할 것
+#### 공식 문서상의 지원 URI 형식
+
+MLflow는 크게 3가지 형태의 저장소 방식을 지원합니다.
+
+1. **로컬 파일 경로 (Local File Path)** - **[작성자님이 사용하신 방식]**
+    
+    - **형식:** file:///절대/경로 또는 /절대/경로 (혹은 상대 경로)
+        
+    - **동작:** 지정된 디렉토리(예: mlruns 폴더)에 파일 형태로 실험 데이터를 저장합니다.
+        
+    - **특징:** 별도의 DB나 서버 구축 없이 폴더만 생성되면 되므로 **개인 연구, 로컬 개발, 디버깅**에 가장 적합합니다.
+        
+    - 참고: 만약 set_tracking_uri를 아예 호출하지 않으면, 기본적으로 코드를 실행하는 위치의 ./mlruns 폴더에 저장됩니다.
+        
+2. **HTTP/HTTPS 서버 주소 (Remote Server)** - **[글에서 본 방식]**
+    
+    - **형식:** http://<IP>:<PORT> 또는 https://...
+        
+    - **동작:** MLflow Tracking Server(별도로 띄운 서버)로 데이터를 전송합니다.
+        
+    - **특징:** **팀 단위 협업** 시 사용합니다. 여러 사람이 다른 컴퓨터에서 실험을 돌려도 결과가 하나의 서버(웹 UI)에 모이게 됩니다.
+        
+3. **데이터베이스 (Database)**
+    
+    - **형식:** sqlite:///mlflow.db, postgresql://user:password@host/db, mysql://...
+        
+    - **동작:** 실험의 메타데이터(수치, 파라미터 등)를 SQL 데이터베이스에 저장합니다.
+        
+    - **특징:** 파일 시스템보다 검색 속도가 빠르고 데이터 관리가 용이합니다.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 # 기타) (다시 확인 필요) MLflow 단계별 주요 메서드/API 정리
