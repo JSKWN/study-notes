@@ -342,7 +342,7 @@ MLflow Tracking Server는 백엔드 및/또는 아티팩트 저장소에 접근�
 
 이러한 구성 요소를 적절히 설정하면 팀의 개발 워크플로우에 적합한 MLflow Tracking 환경을 만들 수 있습니다. 다음은 MLflow Tracking 환경을 위한 몇 가지 일반적인 설정입니다.
 
-![[Pasted image 20251203093100.png]]
+![[Pasted image 20251203093425.png]]
 
 
 1. **Localhost (기본값)**
