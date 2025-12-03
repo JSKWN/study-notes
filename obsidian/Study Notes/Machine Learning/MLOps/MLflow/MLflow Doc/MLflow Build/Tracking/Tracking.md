@@ -1,5 +1,5 @@
 ---
-title: "MLflow Build-Tracking 부분 정리"
+title: (MLflow Doc) Build-Tracking
 date: 2025-12-03
 categories: []
 tags: []
@@ -28,22 +28,21 @@ MLflow Tracking은 ML 실험의 실행 과정을 기록 및 시각화 하는 기
 # 공식 문서 내용
 ---
 - [[#MLflow Tracking|MLflow Tracking]]
-- [[#빠른 시작 (Quickstart)|빠른 시작 (Quickstart)]]
 - [[#개념 (Concepts)|개념 (Concepts)]]
 	- [[#개념 (Concepts)#Runs (런)|Runs (런)]]
 	- [[#개념 (Concepts)#Models (모델)|Models (모델)]]
 	- [[#개념 (Concepts)#Experiments (실험)|Experiments (실험)]]
-- [[#런 추적하기 (Tracking Runs)|런 추적하기 (Tracking Runs)]]
-- [[#프로그래밍 방식으로 기록된 모델 검색하기 (Searching Logged Models Programmatically)|프로그래밍 방식으로 기록된 모델 검색하기 (Searching Logged Models Programmatically)]]
-- [[#프로그래밍 방식으로 런 조회하기 (Querying Runs Programmatically)|프로그래밍 방식으로 런 조회하기 (Querying Runs Programmatically)]]
-- [[#모델 추적하기 (Tracking Models)|모델 추적하기 (Tracking Models)]]
-	- [[#모델 추적하기 (Tracking Models)#모델 체크포인트 기록하기 (Logging Model Checkpoints)|모델 체크포인트 기록하기 (Logging Model Checkpoints)]]
-	- [[#모델 추적하기 (Tracking Models)#지표를 모델 및 데이터셋에 연결하기 (Linking Metrics to Models and Datasets)|지표를 모델 및 데이터셋에 연결하기 (Linking Metrics to Models and Datasets)]]
-	- [[#모델 추적하기 (Tracking Models)#모델 체크포인트 검색 및 순위 매기기 (Searching and Ranking Model Checkpoints)|모델 체크포인트 검색 및 순위 매기기 (Searching and Ranking Model Checkpoints)]]
-	- [[#모델 추적하기 (Tracking Models)#MLflow 3의 모델 URI (Model URIs in MLflow 3)|MLflow 3의 모델 URI (Model URIs in MLflow 3)]]
-- [[#데이터셋 추적하기 (Tracking Datasets)|데이터셋 추적하기 (Tracking Datasets)]]
-- [[#런, 모델 및 결과 탐색하기 (Explore Runs, Models, and Results)|런, 모델 및 결과 탐색하기 (Explore Runs, Models, and Results)]]
-	- [[#런, 모델 및 결과 탐색하기 (Explore Runs, Models, and Results)#Tracking UI|Tracking UI]]
+- [[#런 추적 (Tracking Runs)|런 추적 (Tracking Runs)]]
+- [[#프로그래밍 방식으로 기록된 모델 검색 (Searching Logged Models Programmatically)|프로그래밍 방식으로 기록된 모델 검색 (Searching Logged Models Programmatically)]]
+- [[#프로그래밍 방식으로 런 조회 (Querying Runs Programmatically)|프로그래밍 방식으로 런 조회 (Querying Runs Programmatically)]]
+- [[#모델 추적 (Tracking Models)|모델 추적 (Tracking Models)]]
+	- [[#모델 추적 (Tracking Models)#모델 체크포인트 기록 (Logging Model Checkpoints)|모델 체크포인트 기록 (Logging Model Checkpoints)]]
+	- [[#모델 추적 (Tracking Models)#지표를 모델 및 데이터셋에 연결 (Linking Metrics to Models and Datasets)|지표를 모델 및 데이터셋에 연결 (Linking Metrics to Models and Datasets)]]
+	- [[#모델 추적 (Tracking Models)#모델 체크포인트 검색 및 순위 매기기 (Searching and Ranking Model Checkpoints)|모델 체크포인트 검색 및 순위 매기기 (Searching and Ranking Model Checkpoints)]]
+	- [[#모델 추적 (Tracking Models)#MLflow 3의 모델 URI (Model URIs in MLflow 3)|MLflow 3의 모델 URI (Model URIs in MLflow 3)]]
+- [[#데이터셋 추적 (Tracking Datasets)|데이터셋 추적 (Tracking Datasets)]]
+- [[#런, 모델 및 결과 탐색 (Explore Runs, Models, and Results)|런, 모델 및 결과 탐색 (Explore Runs, Models, and Results)]]
+	- [[#런, 모델 및 결과 탐색 (Explore Runs, Models, and Results)#Tracking UI|Tracking UI]]
 - [[#MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment)|MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment)]]
 	- [[#MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment)#구성 요소 (Components)|구성 요소 (Components)]]
 		- [[#구성 요소 (Components)#MLflow Tracking APIs|MLflow Tracking APIs]]
@@ -52,7 +51,6 @@ MLflow Tracking은 ML 실험의 실행 과정을 기록 및 시각화 하는 기
 		- [[#구성 요소 (Components)#MLflow Tracking Server (선택 사항)|MLflow Tracking Server (선택 사항)]]
 	- [[#MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment)#일반적인 설정 (Common Setups)|일반적인 설정 (Common Setups)]]
 - [[#자주 묻는 질문 (FAQ)|자주 묻는 질문 (FAQ)]]
-
 
 ## MLflow Tracking
 
@@ -76,7 +74,7 @@ MLflow Tracking은 **런(run)** 개념을 중심으로 구성됩니다. 런은
 
 ## 런 추적 (Tracking Runs)
 
-MLflow Tracking API는 런을 추적하기 위한 일련의 함수를 제공합니다. 예를 들어 mlflow.start_run()을 호출하여 새 런을 시작하고, mlflow.log_param() 및 mlflow.log_metric()과 같은 로깅 함수를 호출하여 각각 파라미터와 지표를 기록할 수 있습니다. API 사용에 대한 자세한 내용은 Tracking API 문서를 참조하세요.
+MLflow Tracking API는 런을 추적하기 위한 일련의 함수를 제공합니다. 예를 들어 mlflow.start_run()을 호출하여 새 런을 시작하고, mlflow.log_param() 및 mlflow.log_metric()과 같은 로깅 함수를 호출하여 각각 파라미터와 지표를 기록할 수 있습니다. API 사용에 대한 자세한 내용은 [[Traking API]]를 참조하세요.
 
 codePython
 

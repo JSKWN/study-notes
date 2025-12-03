@@ -1,4 +1,5 @@
 {
   "tabSize": 2,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "strictLineBreaks": false
 }

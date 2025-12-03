@@ -4,5 +4,7 @@
   "obsidian-tasks-plugin",
   "obsidian-plugin-toc",
   "obsidian-smart-typography",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "floating-toc",
+  "editor-width-slider"
 ]

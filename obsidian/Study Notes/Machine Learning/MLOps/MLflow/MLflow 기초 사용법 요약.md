@@ -29,9 +29,9 @@ MLflow는 네 가지 component로 구성
 	
 2. **트래킹 서버(Tracking Server) 실행**
 	- 로컬 환경에서 트래킹 서버를 시작하여 실험 결과 관리 가능
-	1. **실험 추적:** mlflow 객체를 이용해 모델 코드를 감싸(`with mlfow.start_run():`) 추적을 시작하면 `mlruns` 폴더 생성
+	1.  **실험 추적⭐:** mlflow 객체를 이용해 모델 코드를 감싸(`with mlfow.start_run():`) 추적을 시작하면 `mlruns` 폴더 생성
 		- 매 실행마다 run_id 개념의 식별자를 가지는 폴더가 해당 mlruns 폴더 내부에 생성 
-	2. **웹 인터페이스 실행:** 웹 ui를 확인하기 위해서는 터미널에 `mlflow ui {추가옵션}`을 입력
+	2.  **웹 인터페이스 실행⭐:** 웹 ui를 확인하기 위해서는 터미널에 `mlflow ui {추가옵션}`을 입력
 		- mlflow ui와 mlflow server는 웹 ui 및 API 실행이라는 동일한 기능을 가지나, 사용 목적 및 기본 설정에 차이가 있음
 		1. mlflow ui: 로컬 환경에서 실험 결과 확인 목적의 뷰어
 			- 기본 저장소: 명령어를 실행한 위치의 `./mlruns` 폴더를 읽음
