@@ -1,5 +1,7 @@
 
-공식 Doc: https://mlflow.org/docs/latest/self-hosting/architecture/overview/
+> 공식 Doc: https://mlflow.org/docs/latest/self-hosting/architecture/overview/
+> - 하위 상세 페이지로 Backend Store, Artifact Store, Tracking Server 페이지 존재
+
 
 3가지 구성 요소
 - Backend Store
@@ -12,7 +14,8 @@
 	- 팀이 함께 사용할 수 있는 중앙 저장소 서버(클라우드를 주로 이용)
 	- MLflow Tracking Server\*는 백엔드 및 아티팩트 저장소에 액세스하기 위한 REST API를 제공하고 MLflow UI를 호스팅하는 FastAPI 서버
 		- \*MLflow Tracking Server: 클라우드 서버 환경의 터미널에서 `mlflow server`명령어 타이핑을 통해 실행되는 프로그램을 의미함
-		- REST API 방식으로, 파이썬 코드에서 mlflow.log_param()
+			- REST API 방식으로, 파이썬 코드에서 `mlflow.log_param()` 라인을 추가하여 매개변수를 기록하게 하면, 로컬에서 서버로 정보를 보냄
+		- UI 호스팅: 서버에 저장된 실험 관련 메타데이터를 이용해 시각화된 웹페이지 화면을 클라이언트에게 제공
 
 사용 방법
 - 로컬 호스트와 저장공간
