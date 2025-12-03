@@ -1,11 +1,4 @@
----
-title: MLflow 개요
-date: 2025-12-02
-categories:
-  - MLOps
-tags:
-  - MLflow
----
+
 MLflow는 머신러닝 프로젝트의 실험, 모델 관리, 평가 및 배포까지의 전체 수명주기를 관리하는 도구
 
 MLflow는 네 가지 component로 구성

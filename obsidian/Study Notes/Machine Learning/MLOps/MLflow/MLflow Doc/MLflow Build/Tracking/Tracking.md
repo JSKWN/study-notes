@@ -1,29 +1,26 @@
----
-title: (MLflow Doc) Build-Tracking
-date: 2025-12-03
-categories: []
-tags: []
-keywords: []
----
+<br>
+
 # 요약
 ---
-MLflow Tracking은 ML 실험의 실행 과정을 기록 및 시각화 하는 기능을 담당
-1. MLflow Tracking: MLflow가 적용된 코드 실행 시 파라미터, 코드 버전, 평가 지표, 아티팩트(=산출물, 모델 및 플롯 등)을 로깅하고 시각화하는 API 및 UI 도구
-2. 주요 요소:
-	- Runs(실행): 단일 실행 단위이며 메타데이터 및 아티팩트(산출물)를 기록
-	- Experiments(실험): Run 및 모델들의 그룹
-3. 로깅 방법
-	- 수동 로깅: `mlflow.log_param()`, `mlflow.log_metric()`등을 사용해 원하는 대상을 기록
-	- 자동 로깅: `mlflow.autolog()`함수를 이용해 주요 라이브러리(Tensorflow, PyTorch 등)의 파라미터 및 메트릭을 자동 기록
-4. MLflow 3에서 변경된 기능
-	- 모델 체크포인트 및 추적 강화: 단일 Run 내에서 여러 체크포인트를 저장하고 각 체크포인트의 메트릭을 추적
-	- 프로그래밍 방식 모델 검색: mlflow.search_logged_models()를 통해 SQL 유사 문법으로 모델 검색 및 필터링 가능
-	- 모델 ID 기반 uri: 기존 Run ID 기반(runs:/)이었으나, 고유 모델 ID 기반(models:/<model_id>)의 uri를 사용하여 모델에 대한 관리가 용이
-5.  구성 요소 및 환경 설정:
-	- backend store: 메타데이터(파라미터, 메트릭 등) 저장
-	- artifact store: 대용량 파일(모델 가중치 및 이미지) 저장
-	- tracking server: 팀 협업을 위한 원격 서버 구성
----
+
+>MLflow Tracking은 ML 실험의 실행 과정을 기록 및 시각화 하는 기능을 담당
+>1. MLflow Tracking: MLflow가 적용된 코드 실행 시 파라미터, 코드 버전, 평가 지표, 아티팩트(=산출물, 모델 및 플롯 등)을 로깅하고 시각화하는 API 및 UI 도구
+>2. 주요 요소:
+	>	- Runs(실행): 단일 실행 단위이며 메타데이터 및 아티팩트(산출물)를 기록
+	>	- Experiments(실험): Run 및 모델들의 그룹
+>3. 로깅 방법
+	>	- 수동 로깅: `mlflow.log_param()`, `mlflow.log_metric()`등을 사용해 원하는 대상을 기록
+	>	- 자동 로깅: `mlflow.autolog()`함수를 이용해 주요 라이브러리(Tensorflow, PyTorch 등)의 파라미터 및 메트릭을 자동 기록
+>4. MLflow 3에서 변경된 기능
+	>	- 모델 체크포인트 및 추적 강화: 단일 Run 내에서 여러 체크포인트를 저장하고 각 체크포인트의 메트릭을 추적
+	>	- 프로그래밍 방식 모델 검색: mlflow.search_logged_models()를 통해 SQL 유사 문법으로 모델 검색 및 필터링 가능
+	>	- 모델 ID 기반 uri: 기존 Run ID 기반(runs:/)이었으나, 고유 모델 ID 기반(models:/<model_id>)의 uri를 사용하여 모델에 대한 관리가 용이
+>5.  구성 요소 및 환경 설정:
+	>	- backend store: 메타데이터(파라미터, 메트릭 등) 저장
+	>	- artifact store: 대용량 파일(모델 가중치 및 이미지) 저장
+	>	- tracking server: 팀 협업을 위한 원격 서버 구성
+
+<br>
 
 # 공식 문서 내용
 ---

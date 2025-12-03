@@ -1,10 +1,3 @@
----
-title: "Traking API"
-date: 2025-12-03
-categories: []
-tags: []
-keywords: []
----
 ## 목차
 - [[#1. 실험 추적 방식 선택 (Choose Your Approach)|1. 실험 추적 방식 선택 (Choose Your Approach)]]
 	- [[#1. 실험 추적 방식 선택 (Choose Your Approach)#🤖 자동 로깅 (Automatic Logging) - 설정 제로, 최대 범위|🤖 자동 로깅 (Automatic Logging) - 설정 제로, 최대 범위]]
