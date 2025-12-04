@@ -9,7 +9,7 @@
 ### 1. Kubeflow 개요
 (What is Kubeflow)
 
-Kubeflow는 쿠버네티스(Kubernetes) 상에서 AI 플랫폼을 구축하기 위한 도구들의 기반(foundation)입니다.
+Kubeflow는 쿠버네티스(Kubernetes) 상 에서 AI 플랫폼을 구축하기 위한 도구들의 기반(foundation)입니다.
 
 - AI 플랫폼 팀은 각 프로젝트를 독립적으로 사용하거나, 전체 <u>AI 레퍼런스 플랫폼(AI reference platform)</u> 을 배포하여 특정 요구 사항에 맞게 Kubeflow를 기반으로 시스템을 구축할 수 있습니다. 
 - Kubeflow <u>AI 레퍼런스 플랫폼</u>은 조합 가능하고(composable), 모듈식이며(modular), 이식성이 뛰어나고(portable), 확장 가능(scalable)하며, AI 라이프사이클의 모든 단계를 포괄하는 <u>쿠버네티스 네이티브 프로젝트 생태계의 지원</u>을 받습니다.
