@@ -23,7 +23,7 @@ keywords: []
 			- 마치 연구소의 수석 과학자가 조수에게 반복적인 실험을 맡기고 자신은 검증 및 방향설정에 집중하는 형태와 유사
 	- Draft-Target 방식
 		- speculative decoding의 전통적인 구현, 두 개의 모델이 함께 작동하는 방식
-		- 동일한 데이터 분포로 학습된 소형 모델이, 초안(draft)를 생성. 소형 모델을 ‘드래프트 모델’이라고 표현![[speculative-decoding-draft-target-approach-0186.jpg]]
+		- 동일한 데이터 분포로 학습된 소형 모델이, 초안(draft)를 생성. 소형 모델을 ‘드래프트 모델’이라고 표현![speculative-decoding-draft-target-approach-0186](obsidian/Attachments/speculative-decoding-draft-target-approach-0186.jpg)
 		- `드래프트 생성` → `병렬 검증` → `거절 샘플링` 단계를 거침
 			1. 드래프트 생성
 				- 소형 모델(=드래프트 모델)이 여러 개의 후보 토큰(3~12개)을 생성
@@ -32,7 +32,7 @@ keywords: []
 				- 타겟 모델은 ‘입력 시퀀스’ + ‘드래프트 토큰들’을 한번의 포워드 패스로 동시에 처리하며, 각 위치에 대한 확률 분포를 계산
 				- KV 캐시를 이용하므로, 이전 토큰들(prefix)의 Value는 이미 계산되어 저장되어 있으므로, 새로 제안된 토큰의 계산비용만 발생
 			3. 거절 샘플링: 
-			- ![[speculative-decoding-verification-phase-target-model.jpeg]]
+			- ![speculative-decoding-verification-phase-target-model](obsidian/Attachments/speculative-decoding-verification-phase-target-model.jpeg)
 			- 거절 샘플링은 타겟 모델이 확률 분포를 계산한 이후에 진행되는 단계
 			- 핵심은 수락 판단 로직(acceptance logic), 이는 드래프트 모델이 제안한 확률 P_draft와 타겟 모델이 실제로 계산한 확률 P_target을 비교함
 			- 첫 두개의 토큰인 [Brown]과 [Fox]의 경우, P_target이 P_draft보다 높으므로 토큰이 수락됨
@@ -41,7 +41,7 @@ keywords: []
 			- 모델은 마지막 수락된 토큰인 [Fox]부터 다시 표준 자기회귀 방식으로 생성을 이어감
 
 - EAGLE 방식의 Speculative Decoding이란
-- ![[Pasted image 20251201151828.png]]
+- ![Pasted image 20251201151828](obsidian/Attachments/Pasted%20image%2020251201151828.png)
 	- EAGLE은 타겟 모델의 출력 헤드 직전의 hidden state로부터 feature를 추론하는 방식의 speculative decoding 기법
 		- Draft-Target 방식이 별도의 드래프트 모델에 의존해 토큰을 제안하는 것과 차이
 		- 두번째 모델을 훈련하거나 실행하는 오버헤드를 없애고 하나의 포워드 패스로 여러개의 토큰 후보 검증 가능
