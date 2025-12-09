@@ -24,36 +24,36 @@
 
 # 공식 문서 내용
 ---
-- [MLflow Tracking](#MLflow%20Tracking)
-- [개념 (Concepts)](#개념%20(Concepts))
-	- [](#개념%20(Concepts)#개념%20(Concepts)#Runs%20(런)|Runs%20(런))
-	- [](#개념%20(Concepts)#개념%20(Concepts)#Models%20(모델)|Models%20(모델))
-	- [](#개념%20(Concepts)#개념%20(Concepts)#Experiments%20(실험)|Experiments%20(실험))
-- [런 추적 (Tracking Runs)](#런%20추적%20(Tracking%20Runs))
-- [프로그래밍 방식으로 기록된 모델 검색 (Searching Logged Models Programmatically)](#프로그래밍%20방식으로%20기록된%20모델%20검색%20(Searching%20Logged%20Models%20Programmatically))
-- [프로그래밍 방식으로 런 조회 (Querying Runs Programmatically)](#프로그래밍%20방식으로%20런%20조회%20(Querying%20Runs%20Programmatically))
-- [모델 추적 (Tracking Models)](#모델%20추적%20(Tracking%20Models))
-	- [](#모델%20추적%20(Tracking%20Models)#모델%20추적%20(Tracking%20Models)#모델%20체크포인트%20기록%20(Logging%20Model%20Checkpoints)|모델%20체크포인트%20기록%20(Logging%20Model%20Checkpoints))
-	- [](#모델%20추적%20(Tracking%20Models)#모델%20추적%20(Tracking%20Models)#지표를%20모델%20및%20데이터셋에%20연결%20(Linking%20Metrics%20to%20Models%20and%20Datasets)|지표를%20모델%20및%20데이터셋에%20연결%20(Linking%20Metrics%20to%20Models%20and%20Datasets))
-	- [](#모델%20추적%20(Tracking%20Models)#모델%20추적%20(Tracking%20Models)#모델%20체크포인트%20검색%20및%20순위%20매기기%20(Searching%20and%20Ranking%20Model%20Checkpoints)|모델%20체크포인트%20검색%20및%20순위%20매기기%20(Searching%20and%20Ranking%20Model%20Checkpoints))
-	- [](#모델%20추적%20(Tracking%20Models)#모델%20추적%20(Tracking%20Models)#MLflow%203의%20모델%20URI%20(Model%20URIs%20in%20MLflow%203)|MLflow%203의%20모델%20URI%20(Model%20URIs%20in%20MLflow%203))
-- [데이터셋 추적 (Tracking Datasets)](#데이터셋%20추적%20(Tracking%20Datasets))
-- [런, 모델 및 결과 탐색 (Explore Runs, Models, and Results)](#런,%20모델%20및%20결과%20탐색%20(Explore%20Runs,%20Models,%20and%20Results))
-	- [](#런,%20모델%20및%20결과%20탐색%20(Explore%20Runs,%20Models,%20and%20Results)#런,%20모델%20및%20결과%20탐색%20(Explore%20Runs,%20Models,%20and%20Results)#Tracking%20UI|Tracking%20UI)
-- [MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment)](#MLflow%20Tracking%20환경%20설정%20(Set%20up%20the%20MLflow%20Tracking%20Environment))
-	- [](#MLflow%20Tracking%20환경%20설정%20(Set%20up%20the%20MLflow%20Tracking%20Environment)#MLflow%20Tracking%20환경%20설정%20(Set%20up%20the%20MLflow%20Tracking%20Environment)#구성%20요소%20(Components)|구성%20요소%20(Components))
-		- [](#구성%20요소%20(Components)#구성%20요소%20(Components)#MLflow%20Tracking%20APIs|MLflow%20Tracking%20APIs)
-		- [](#구성%20요소%20(Components)#구성%20요소%20(Components)#Backend%20Store%20(백엔드%20저장소)|Backend%20Store%20(백엔드%20저장소))
-		- [](#구성%20요소%20(Components)#구성%20요소%20(Components)#Artifact%20Store%20(아티팩트%20저장소)|Artifact%20Store%20(아티팩트%20저장소))
-		- [](#구성%20요소%20(Components)#구성%20요소%20(Components)#MLflow%20Tracking%20Server%20(선택%20사항)|MLflow%20Tracking%20Server%20(선택%20사항))
-	- [](#MLflow%20Tracking%20환경%20설정%20(Set%20up%20the%20MLflow%20Tracking%20Environment)#MLflow%20Tracking%20환경%20설정%20(Set%20up%20the%20MLflow%20Tracking%20Environment)#일반적인%20설정%20(Common%20Setups)|일반적인%20설정%20(Common%20Setups))
-- [자주 묻는 질문 (FAQ)](#자주%20묻는%20질문%20(FAQ))
+- [[#MLflow Tracking|MLflow Tracking]]
+- [[#개념 (Concepts|개념 (Concepts|[Concepts)]]]])
+	- [[#개념 (Concepts]]#개념%20(Concepts)#Runs%20(런)|Runs%20(런))
+	- [[#개념 (Concepts]]#개념%20(Concepts)#Models%20(모델)|Models%20(모델))
+	- [[#개념 (Concepts]]#개념%20(Concepts)#Experiments%20(실험)|Experiments%20(실험))
+- [[#런 추적 (Tracking Runs|런 추적 (Tracking Runs|[Tracking Runs)]]]])
+- [[#프로그래밍 방식으로 기록된 모델 검색 (Searching Logged Models Programmatically|프로그래밍 방식으로 기록된 모델 검색 (Searching Logged Models Programmatically|[Searching Logged Models Programmatically)]]]])
+- [[#프로그래밍 방식으로 런 조회 (Querying Runs Programmatically|프로그래밍 방식으로 런 조회 (Querying Runs Programmatically|[Querying Runs Programmatically)]]]])
+- [[#모델 추적 (Tracking Models|모델 추적 (Tracking Models|[Tracking Models)]]]])
+	- [[#모델 추적 (Tracking Models]]#모델%20추적%20(Tracking%20Models)#모델%20체크포인트%20기록%20(Logging%20Model%20Checkpoints)|모델%20체크포인트%20기록%20(Logging%20Model%20Checkpoints))
+	- [[#모델 추적 (Tracking Models]]#모델%20추적%20(Tracking%20Models)#지표를%20모델%20및%20데이터셋에%20연결%20(Linking%20Metrics%20to%20Models%20and%20Datasets)|지표를%20모델%20및%20데이터셋에%20연결%20(Linking%20Metrics%20to%20Models%20and%20Datasets))
+	- [[#모델 추적 (Tracking Models]]#모델%20추적%20(Tracking%20Models)#모델%20체크포인트%20검색%20및%20순위%20매기기%20(Searching%20and%20Ranking%20Model%20Checkpoints)|모델%20체크포인트%20검색%20및%20순위%20매기기%20(Searching%20and%20Ranking%20Model%20Checkpoints))
+	- [[#모델 추적 (Tracking Models]]#모델%20추적%20(Tracking%20Models)#MLflow%203의%20모델%20URI%20(Model%20URIs%20in%20MLflow%203)|MLflow%203의%20모델%20URI%20(Model%20URIs%20in%20MLflow%203))
+- [[#데이터셋 추적 (Tracking Datasets|데이터셋 추적 (Tracking Datasets|[Tracking Datasets)]]]])
+- [[#런, 모델 및 결과 탐색 (Explore Runs, Models, and Results|런, 모델 및 결과 탐색 (Explore Runs, Models, and Results|[Explore Runs, Models, and Results)]]]])
+	- [[#런, 모델 및 결과 탐색 (Explore Runs, Models, and Results]]#런,%20모델%20및%20결과%20탐색%20(Explore%20Runs,%20Models,%20and%20Results)#Tracking%20UI|Tracking%20UI)
+- [[#MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment|MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment|[Set up the MLflow Tracking Environment)]]]])
+	- [[#MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment]]#MLflow%20Tracking%20환경%20설정%20(Set%20up%20the%20MLflow%20Tracking%20Environment)#구성%20요소%20(Components)|구성%20요소%20(Components))
+		- [[#구성 요소 (Components]]#구성%20요소%20(Components)#MLflow%20Tracking%20APIs|MLflow%20Tracking%20APIs)
+		- [[#구성 요소 (Components]]#구성%20요소%20(Components)#Backend%20Store%20(백엔드%20저장소)|Backend%20Store%20(백엔드%20저장소))
+		- [[#구성 요소 (Components]]#구성%20요소%20(Components)#Artifact%20Store%20(아티팩트%20저장소)|Artifact%20Store%20(아티팩트%20저장소))
+		- [[#구성 요소 (Components]]#구성%20요소%20(Components)#MLflow%20Tracking%20Server%20(선택%20사항)|MLflow%20Tracking%20Server%20(선택%20사항))
+	- [[#MLflow Tracking 환경 설정 (Set up the MLflow Tracking Environment]]#MLflow%20Tracking%20환경%20설정%20(Set%20up%20the%20MLflow%20Tracking%20Environment)#일반적인%20설정%20(Common%20Setups)|일반적인%20설정%20(Common%20Setups))
+- [[#자주 묻는 질문 (FAQ|자주 묻는 질문 (FAQ|[FAQ)]]]])
 
 ## MLflow Tracking
 
 MLflow Tracking은 머신러닝 코드를 실행할 때 파라미터, 코드 버전, 지표(metrics), 출력 파일을 기록하고 추후 결과를 시각화하기 위한 API 및 UI입니다. MLflow Tracking은 Python, REST, R, Java API를 제공합니다.
 
-![Pasted image 20251203092522](obsidian/Attachments/Pasted%20image%2020251203092522.png)
+![[obsidian/Attachments/Pasted image 20251203092522.png]]
 
 ## 개념 (Concepts)
 
@@ -71,7 +71,7 @@ MLflow Tracking은 **런(run)** 개념을 중심으로 구성됩니다. 런은
 
 ## 런 추적 (Tracking Runs)
 
-MLflow Tracking API는 런을 추적하기 위한 일련의 함수를 제공합니다. 예를 들어 mlflow.start_run()을 호출하여 새 런을 시작하고, mlflow.log_param() 및 mlflow.log_metric()과 같은 로깅 함수를 호출하여 각각 파라미터와 지표를 기록할 수 있습니다. API 사용에 대한 자세한 내용은 [Traking API](obsidian/Study%20Notes/Machine%20Learning/MLOps/MLflow/MLflow%20Doc/MLflow%20Build/Traking%20API.md)를 참조하세요.
+MLflow Tracking API는 런을 추적하기 위한 일련의 함수를 제공합니다. 예를 들어 mlflow.start_run()을 호출하여 새 런을 시작하고, mlflow.log_param() 및 mlflow.log_metric()과 같은 로깅 함수를 호출하여 각각 파라미터와 지표를 기록할 수 있습니다. API 사용에 대한 자세한 내용은 [[obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Traking API]]를 참조하세요.
 
 codePython
 
@@ -290,7 +290,7 @@ Tracking UI를 사용하면 페이지 상단에 표시된 것처럼 실험, 런,
 
 이러한 기능들은 아래와 같이 모델에 대해서도 사용할 수 있습니다.
 
-![Pasted image 20251203092903](obsidian/Attachments/Pasted%20image%2020251203092903.png)
+![[obsidian/Attachments/Pasted image 20251203092903.png]]
 
 로컬 mlruns 디렉터리에 런을 기록하는 경우, 해당 디렉터리의 상위 경로에서 다음 명령어를 실행한 후 브라우저에서 http://127.0.0.1:5000에 접속하세요.
 
@@ -337,7 +337,7 @@ MLflow Tracking Server는 백엔드 및/또는 아티팩트 저장소에 접근�
 
 이러한 구성 요소를 적절히 설정하면 팀의 개발 워크플로우에 적합한 MLflow Tracking 환경을 만들 수 있습니다. 다음은 MLflow Tracking 환경을 위한 몇 가지 일반적인 설정입니다.
 
-![Pasted image 20251203093425](obsidian/Attachments/Pasted%20image%2020251203093425.png)
+![[obsidian/Attachments/Pasted image 20251203093425.png]]
 
 
 1. **Localhost (기본값)**
