@@ -1,5 +1,14 @@
 {
   "tabSize": 2,
   "readableLineLength": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

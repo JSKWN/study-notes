@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "데이터 로딩 (tf.data.Dataset & ~TFRecordDataset)"
             }
+          },
+          {
+            "id": "c045c110184e0e6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/Study Notes/Journal/2025-12-03.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-12-03"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,53 +242,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "992bd82be6f05364",
+  "active": "9099e579ef233cbb",
   "lastOpenFiles": [
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 기초 사용법 요약.md",
+    "obsidian/Study Notes/Journal/2025-12-03.md",
+    "obsidian/Study Notes/Machine Learning/Tensorflow/사용자 정의 레이어(tf.keras.layer.Layers 상속).md",
+    "obsidian/Study Notes/Machine Learning/Training, Tuning/CoT 파인튜닝 (임시).md",
+    "obsidian/Study Notes/Machine Learning/Training, Tuning/강화학습-PRM (과정보상모델) (임시).md",
     "obsidian/Study Notes/Machine Learning/Tensorflow/데이터 로딩 (tf.data.Dataset & ~TFRecordDataset).md",
+    "obsidian/Study Notes/Machine Learning/Tensorflow/🔧 모델 저장 관련.md",
+    "obsidian/Study Notes/Journal/Trial Notes",
+    "obsidian/Study Notes/Machine Learning/Making LLMs more accurate by using all of their layers.pdf",
+    "README.md",
+    "obsidian/Attachments/Pasted image 20251204160643.png",
+    "conflict-files-obsidian-git.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started/Introduction.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started/Architecture.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started",
+    "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc",
+    "obsidian/Study Notes/Computer Science/Cloud/K8S/자료 조사 및 참고.md",
+    "obsidian/Study Notes/Computer Science/Cloud/K8S/임시.md",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/Azure 실습 251020.md",
+    "obsidian/Study Notes/Computer Science/Cloud/K8S",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure",
+    "obsidian/Study Notes/Computer Science/Cloud",
+    "obsidian/Attachments/Pasted image 20251204160009.png",
+    "obsidian/Attachments/Pasted image 20251204145851.png",
+    "obsidian/Attachments/Pasted image 20251204132928.png",
+    "obsidian/Attachments/Pasted image 20251203133245.png",
+    "obsidian/Attachments/Pasted image 20251203113252.png",
+    "obsidian/Attachments/Pasted image 20251203093425.png",
+    "obsidian/Attachments/Pasted image 20251203092903.png",
+    "obsidian/Attachments/Pasted image 20251203092522.png",
+    "obsidian/Attachments/Pasted image 20251204161935.png",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 기초 사용법 요약.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 아키텍처.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/기존 mlflow 적용 스크립트 모듈화 및 리팩토링.md",
-    "obsidian/Study Notes/Journal/2025-12-03.md",
     "obsidian/Study Notes/Journal/2025-12-02.md",
     "obsidian/Study Notes/Journal/2025-11-28.md",
     "obsidian/Study Notes/Journal/⭐ 기존 일지(~25년 12월)는 노션 참고.md",
     "obsidian/Study Notes/Journal/기술 탐색.md",
     "obsidian/Study Notes/Journal/무제.md",
-    "README.md",
-    "obsidian/Attachments/Pasted image 20251201101623.png",
     "obsidian/Study Notes/Journal/Attachments_Journal",
     "obsidian/Study Notes/Journal/Attachments_Journal/Attachments_2025",
-    "obsidian/Study Notes/Journal/Attachments_Journal/Attachments_2025/Pasted image 20251203133245.png",
     "obsidian/Study Notes/Machine Learning/MLOps/DB (SQL, Cloud)",
-    "obsidian/Study Notes/Machine Learning/MLOps/DVC",
-    "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking/Tracking.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Traking API.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/Attachments_MLflow/Pasted image 20251203113252.png",
     "obsidian/Templates/표 너비 조절 템플릿.md",
     "2025-12-03.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking/Tracking-Backend Store.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build",
-    "Tracking API 문서.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/Attachments_MLflow/Pasted image 20251203093425.png",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/Attachments_MLflow/Pasted image 20251203092903.png",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/Attachments_MLflow/Pasted image 20251203092522.png",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/Attachments_MLflow",
-    "무제.md",
-    "Pasted image 20251203093058.png",
-    "Pasted image 20251203093100.png",
-    "Pasted image 20251203093052.png",
-    "obsidian/Templates/blog_post_template.md",
-    "obsidian/Study Notes/etc/yaml 정리 및 파이썬 적용.md",
-    "2025-12-02.md",
-    "copilot/copilot-conversations/yaml을_잘_사용하지_못하는데,_주요_사항_및_예시_등을_정리해@20251202_102426.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "obsidian/Attachments/Pasted image 20251201151828.png"
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking/Tracking-Backend Store.md"
   ]
 }
