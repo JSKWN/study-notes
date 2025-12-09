@@ -244,6 +244,14 @@
   },
   "active": "9099e579ef233cbb",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "obsidian/Study Notes/Computer Science/Cloud/🔧 기타 내용 정리.md",
+    "obsidian/Study Notes/Computer Science/Cloud/K8S/K8S Docs.md",
+    "obsidian/Study Notes/Computer Science/Cloud/Istio/자료조사.md",
+    "obsidian/Study Notes/Computer Science/Cloud/Istio",
+    "obsidian/Attachments/Pasted image 20251204171746.png",
+    "Pasted image 20251205113133.png",
+    "Pasted image 20251205104849.png",
     "obsidian/Study Notes/Journal/2025-12-03.md",
     "obsidian/Study Notes/Machine Learning/Tensorflow/사용자 정의 레이어(tf.keras.layer.Layers 상속).md",
     "obsidian/Study Notes/Machine Learning/Training, Tuning/CoT 파인튜닝 (임시).md",
@@ -254,7 +262,6 @@
     "obsidian/Study Notes/Machine Learning/Making LLMs more accurate by using all of their layers.pdf",
     "README.md",
     "obsidian/Attachments/Pasted image 20251204160643.png",
-    "conflict-files-obsidian-git.md",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started/Introduction.md",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started/Architecture.md",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started",
@@ -271,9 +278,6 @@
     "obsidian/Attachments/Pasted image 20251203133245.png",
     "obsidian/Attachments/Pasted image 20251203113252.png",
     "obsidian/Attachments/Pasted image 20251203093425.png",
-    "obsidian/Attachments/Pasted image 20251203092903.png",
-    "obsidian/Attachments/Pasted image 20251203092522.png",
-    "obsidian/Attachments/Pasted image 20251204161935.png",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 기초 사용법 요약.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 아키텍처.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/기존 mlflow 적용 스크립트 모듈화 및 리팩토링.md",
@@ -284,11 +288,7 @@
     "obsidian/Study Notes/Journal/무제.md",
     "obsidian/Study Notes/Journal/Attachments_Journal",
     "obsidian/Study Notes/Journal/Attachments_Journal/Attachments_2025",
-    "obsidian/Study Notes/Machine Learning/MLOps/DB (SQL, Cloud)",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking/Tracking.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Traking API.md",
-    "obsidian/Templates/표 너비 조절 템플릿.md",
-    "2025-12-03.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking/Tracking-Backend Store.md"
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Traking API.md"
   ]
 }

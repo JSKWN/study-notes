@@ -8,5 +8,7 @@
   "floating-toc",
   "editor-width-slider",
   "obsidian-underline",
-  "obsidian-link-converter"
+  "obsidian-link-converter",
+  "global-search-and-replace",
+  "image-converter"
 ]

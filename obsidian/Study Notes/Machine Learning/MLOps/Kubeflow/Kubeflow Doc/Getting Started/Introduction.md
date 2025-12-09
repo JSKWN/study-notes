@@ -1,4 +1,3 @@
-
 - [[#1. Kubeflow 개요|1. Kubeflow 개요]]
 - [[#2. Kubeflow 프로젝트|2. Kubeflow 프로젝트]]
 - [[#3. Kubeflow AI 레퍼런스 플랫폼|3. Kubeflow AI 레퍼런스 플랫폼]]
@@ -12,12 +11,12 @@
 Kubeflow는 쿠버네티스(Kubernetes) 상 에서 AI 플랫폼을 구축하기 위한 도구들의 기반(foundation)입니다.
 
 - AI 플랫폼 팀은 각 프로젝트를 독립적으로 사용하거나, 전체 <u>AI 레퍼런스 플랫폼(AI reference platform)</u> 을 배포하여 특정 요구 사항에 맞게 Kubeflow를 기반으로 시스템을 구축할 수 있습니다. 
-- Kubeflow <u>AI 레퍼런스 플랫폼</u>은 조합 가능하고(composable), 모듈식이며(modular), 이식성이 뛰어나고(portable), 확장 가능(scalable)하며, AI 라이프사이클의 모든 단계를 포괄하는 <u>쿠버네티스 네이티브 프로젝트 생태계의 지원</u>을 받습니다.
+- Kubeflow <u>AI 레퍼런스 플랫폼</u>은 조합 가능하고(composable), 모듈식이며(modular), 이식성이 뛰어나고(portable), 확장 가능(scalable)하며, AI 생명주기의 모든 단계를 포괄하는 <u>쿠버네티스 네이티브 프로젝트 생태계의 지원</u>을 받습니다.
 
 ### 2. Kubeflow 프로젝트
 (What are Kubeflow Projects)
 
-- Kubeflow는 AI 라이프사이클의 서로 다른 측면을 다루는 여러 오픈 소스 프로젝트들로 구성되어 있습니다. 이러한 프로젝트들은 독립적으로 사용하거나 Kubeflow AI 레퍼런스 플랫폼의 일부로서 함께 사용할 수 있도록 설계되었습니다. 
+- Kubeflow는 AI 생명주기의 서로 다른 측면을 다루는 여러 오픈 소스 프로젝트들로 구성되어 있습니다. 이러한 프로젝트들은 독립적으로 사용하거나 Kubeflow AI 레퍼런스 플랫폼의 일부로서 함께 사용할 수 있도록 설계되었습니다. 
 - 이는 전체 엔드투엔드(end-to-end) AI 플랫폼 기능이 필요하지 않은 사용자가 모델 학습(model training)이나 모델 서빙(model serving)과 같은 특정 기능만 활용하고자 할 때 유연성을 제공합니다.
 
 |                         |                         |                               |
@@ -44,7 +43,7 @@ Kubeflow는 쿠버네티스(Kubernetes) 상 에서 AI 플랫폼을 구축하기 
 (What is the Kubeflow AI Reference Platform)
 
 - Kubeflow AI 레퍼런스 플랫폼은 Kubeflow의 모든 프로젝트 제품군과 추가 통합/관리 도구들을 하나로 묶은 것을 의미합니다.
-- Kubeflow AI 레퍼런스 플랫폼은 전체 AI 라이프사이클을 위한 포괄적인 툴킷을 배포합니다. 이 플랫폼은 '패키지 배포판(Packaged Distributions)' 또는 'Kubeflow 매니페스트(Kubeflow Manifests)'를 통해 설치할 수 있습니다.
+- Kubeflow AI 레퍼런스 플랫폼은 전체 AI 생명주기을 위한 포괄적인 툴킷을 배포합니다. 이 플랫폼은 '패키지 배포판(Packaged Distributions)' 또는 'Kubeflow 매니페스트(Kubeflow Manifests)'를 통해 설치할 수 있습니다.
 
 |   |   |   |
 |---|---|---|
@@ -59,9 +58,9 @@ Kubeflow는 쿠버네티스(Kubernetes) 상 에서 AI 플랫폼을 구축하기 
 
 ### 4. Kubeflow 개요 다이어그램 (Kubeflow Overview Diagram)
 
-다음 다이어그램은 쿠버네티스 상에서 AI 라이프사이클의 각 단계를 담당하는 Kubeflow 프로젝트들을 보여줍니다. Kubeflow 프로젝트들이 AI 라이프사이클에 어떻게 부합하는지 알아보려면 아키텍처 개요를 읽어보세요.
+다음 다이어그램은 쿠버네티스 상에서 AI 생명주기의 각 단계를 담당하는 Kubeflow 프로젝트들을 보여줍니다. Kubeflow 프로젝트들이 AI 생명주기에 어떻게 부합하는지 알아보려면 아키텍처 개요를 읽어보세요.
 
-![](Pasted%20image%2020251204145851.png)
+![Pasted image 20251204145851](obsidian/Attachments/Pasted%20image%2020251204145851.png)
 
 ### 5. Kubeflow의 미션 (The Kubeflow Mission)
 
