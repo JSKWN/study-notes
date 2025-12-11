@@ -11,14 +11,12 @@
             "id": "6b815cfb4839486b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "obsidian/Study Notes/Computer Science/Cloud/🔧 기타 내용 정리.md",
-                "mode": "source",
-                "source": false
+                "file": "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image.png"
               },
-              "icon": "lucide-file",
-              "title": "🔧 기타 내용 정리"
+              "icon": "lucide-image",
+              "title": "image"
             }
           }
         ]
@@ -229,14 +227,26 @@
   },
   "active": "6b815cfb4839486b",
   "lastOpenFiles": [
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image-18.png",
+    "Pasted image 20251205104849.png",
+    "Pasted image 20251205113133.png",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image.png",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/실습 251211 Blob Storage.md",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image-17.png",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image-16.png",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image-15.png",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image-14.png",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image-13.png",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image-12.png",
+    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/image-11.png",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 아키텍처.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 기초 사용법 요약.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/기존 mlflow 적용 스크립트 모듈화 및 리팩토링.md",
+    "obsidian/Study Notes/Computer Science/Cloud/🔧 기타 내용 정리.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Traking API.md",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/🔧 자료 조사 및 참고.md",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started/Architecture.md",
-    "obsidian/Study Notes/Computer Science/Cloud/🔧 기타 내용 정리.md",
-    "Pasted image 20251205113133.png",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/자료 조사 및 정리.md",
     "obsidian/Study Notes/Computer Science/Cloud/K8S/K8S Docs.md",
     "obsidian/Study Notes/Computer Science/Cloud/K8S/임시.md",
@@ -247,20 +257,11 @@
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking/Tracking.md",
     "Kubeflow Interfaces)](.md",
     "Tracking Models)](.md",
-    "Pasted image 20251205104849.png",
     "obsidian/Study Notes/Journal/⭐ 기존 일지(~25년 12월)는 노션 참고.md",
-    "obsidian/Attachments/Pasted image 20251204160643.png",
     "obsidian/Study Notes/etc/무제.md",
     "obsidian/Study Notes/etc/yaml 정리 및 파이썬 적용.md",
     "obsidian/Study Notes/Journal/2025-12-03.md",
-    "obsidian/Attachments/Pasted image 20251204171746.png",
     "obsidian/Study Notes/Computer Science/Cloud/K8S",
-    "obsidian/Attachments/Pasted image 20251204161935.png",
-    "obsidian/Attachments/Pasted image 20251204161922.png",
-    "obsidian/Attachments/Pasted image 20251204161836.png",
-    "obsidian/Attachments/Pasted image 20251204160009.png",
-    "obsidian/Attachments/Pasted image 20251204145851.png",
-    "obsidian/Attachments/Pasted image 20251203133245.png",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc",
     "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Attachments_Kubeflow",
@@ -271,8 +272,6 @@
     "obsidian/Study Notes/Journal/2025-12-02.md",
     "obsidian/Study Notes/Journal/2025-11-28.md",
     "obsidian/Study Notes/Journal/기술 탐색.md",
-    "obsidian/Study Notes/Journal/무제.md",
-    "obsidian/Study Notes/Journal/Attachments_Journal",
-    "obsidian/Study Notes/Journal/Attachments_Journal/Attachments_2025"
+    "obsidian/Study Notes/Journal/Attachments_Journal"
   ]
 }
