@@ -1,17 +1,15 @@
 Blob storage: 비정형 데이터를 위한 클라우드 스토리지
-
 # 스크립트 를 활용한 업로드/다운로드
-
 
 ## 1. 업로드
 
 #### Azure 저장공간(컨테이너) 접근 방법
 스토리지 계정 → 데이터 스토리지 → 컨테이너에 접근하면 만들어놓은 컨테이너에 접근가능
-![[image-1.png]]
+![[obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver/image-1.png]]
 
 #### azure pip 모듈 설치
 pip install azure-storage-blob
-![[image-2.png]]
+![[obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver/image-2.png]]
 
 - VSCode에서 blob_storage에 간단한 파일을 업로드 하는 스크립트 작성
 	```Python
@@ -44,16 +42,16 @@ pip install azure-storage-blob
 
 #### 액세스 키 & 연결 문자열
 
-![[image-3.png]]
+![[obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver/image-3.png]]
 
 #### 파이썬 코드 실행완료
 
 (문제가 있었는데, 스토리지 계정명은 “knoublobstorage941007” 이고 데이터스토리지-컨테이너 에서 확인되는 내 컨테이너 명은 “knoublobcontainer”였음. 파이썬 코드에 처음에 스토리지 계정으로 잘못 적어 오류가 발생)
-![[image-4.png]]
+![[obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver/image-4.png]]
 
 #### 컨테이너에 파일 업로드 완료
 
-![[image-5.png]]
+![[obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver/image-5.png]]
 
 ## 2. 다운로드
 
@@ -96,7 +94,7 @@ except Exception as ex:
 ```
 
 새로운 파일(“~down.png”) 다운됨
-![[image-6.png]]
+![[obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver/image-6.png]]
 
 ## 3. 파일 삭제
 파일 이름을 적은 객체 생성 후 객체의 메서드를 이용한 삭제
@@ -129,6 +127,6 @@ except Exception as ex:
 ```
 
 
-![[image-7.png]]
+![[obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver/image-7.png]]
 
-![[image-8.png]]
+![[obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver/image-8.png]]
