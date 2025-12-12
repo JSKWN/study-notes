@@ -20,7 +20,7 @@ pip install azure-storage-blob
 	
 	try:
 	  print("한국방송통신대학교 클라우드 컴퓨팅 Blob 파일 업로드")
-	  connect_str = "<연결 문자열>" # DefaultEndpointsProtocol=https;AccountName=knoublobstorage941007;AccountKey=fhRbBntuQsg9SdUBHWawJkdF0K5tvJcDo0dhgmngTXY6NkfnqTTG1B79CYN+ybEiELBLLOWw0op8+ASt9qd/iw==;EndpointSuffix=core.windows.net
+	  connect_str = "<연결 문자열>" 
 	  # clinet 객체 생성 (connection sting을 가지고 client 객체 생성)
 	  blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 	  container_name = "<컨테이너 이름>" # knoublobcontainer
@@ -70,7 +70,7 @@ try:
 
   print("한국방송통신대학교 클라우드 컴퓨팅 Blob 파일 다운로드")
 
-  connect_str = "DefaultEndpointsProtocol=https;AccountName=knoublobstorage941007;AccountKey=fhRbBntuQsg9SdUBHWawJkdF0K5tvJcDo0dhgmngTXY6NkfnqTTG1B79CYN+ybEiELBLLOWw0op8+ASt9qd/iw==;EndpointSuffix=core.windows.net"
+  connect_str = "<연결 문자열>"
 
   blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
@@ -111,7 +111,7 @@ try:
 
   print("한국방송통신대학교 4학년 2학기 클라우드 컴퓨팅")
 
-  connect_str = "DefaultEndpointsProtocol=https;AccountName=knoublobstorage941007;AccountKey=fhRbBntuQsg9SdUBHWawJkdF0K5tvJcDo0dhgmngTXY6NkfnqTTG1B79CYN+ybEiELBLLOWw0op8+ASt9qd/iw==;EndpointSuffix=core.windows.net"
+  connect_str = "<연결 문자열>"
 
   blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 
