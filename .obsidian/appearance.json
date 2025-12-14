@@ -2,7 +2,7 @@
   "theme": "system",
   "interfaceFontFamily": "Noto Sans KR,Noto Serif KR,나눔고딕OTF",
   "textFontFamily": "Noto Sans KR,Noto Serif KR,나눔고딕OTF",
-  "baseFontSize": 15,
+  "baseFontSize": 14,
   "baseFontSizeAction": true,
   "cssTheme": "",
   "accentColor": "",
