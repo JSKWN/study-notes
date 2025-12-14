@@ -1,5 +1,8 @@
 `tf.keras.layers.Layer`를 상속받아 사용자 정의 레이어를 만들 때, Tensorflow의 ‘Graph Execution*’과 ‘Variable Management*’ 메커니즘을 위해 반드시 구현해야하는 메서드 존재. (그래프 실행은 속도, 성능의 이점)
 
+텐서플로우 모델(Model) 및 레이어(Layer)를 상속받아 구현할 경우, 하위 클래스화된 모델을 직렬화하려면 구현자가 모델 레벨에서 `get_config()` 및 `from_config()` 메서드를 지정해야함
+
+
 ### 0. __init__(self, **kwargs)
 - **역할:** 객체 생성 및 하이퍼파라미터 초기화.
 - **필수:** super().__init__(**kwargs) 호출 (레이어 이름, dtype 등의 처리를 위함).
