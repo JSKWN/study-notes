@@ -5,18 +5,28 @@
 	- [[#차이점 비교: tf.data.Dataset 와 np.load()#구체적 예시|구체적 예시]]
 - [[#tf.data.Dataset 객체의 주요 메서드|tf.data.Dataset 객체의 주요 메서드]]
 
+## 요약
+세가지 옵션
+1. tf.record.Dataset.from_tensor_slices() 사용 (np.load()와 병행)
+	- data = np.load(“데이터 경로”)
+	- dataset = tf.record.Dataset.from_tensor_slices(data)
+2. tf.record.Dataset.from_generator() 사용 (제너레이터 객체, yield 사용)
+	- 대용량 데이터를 lazy loading 방식으로, 저장공간에서 필요한 만큼만 로딩
+	- 메서드의 인자로는 제너레이터객체(제너레이터 함수 이름)를 넣어줌
+		- dataset = tf.record.Dataset.from_generator(data_generator, 추가 인자)
+3. tf.data.TFRecordDataset: 데이터 용량 이슈가 있으며 빠른 속도가 중요할 경우
+
 ## 개요
 - 왜 해당 API 내용을 정리했는지?
-	- 학습 데이터를 RAM에 로딩할 때, 기존에 사용하던 np.load() 방식을 이용하면 용량 문제가 발생함.
-	- 텐서플로우 자체적으로 데이터를 다루는 Dataset 및 TFRecordDataset 클래스에서는 lazy-loading을 사용하고, prefetch(미리 불러오기) 등을 이용하므로 용량문제에서 자유로움.
+	- 학습 데이터를 RAM에 로딩 할 때, 기존에 사용하던 np.load() 방식을 이용하면 용량 문제가 발생함.
+	- 텐서플로우의 Dataset 및 TFRecordDataset 클래스에서는 lazy-loading을 사용하고, prefetch(미리 불러오기) 등을 이용하므로 데이터 용량 문제에서 자유로움.
 - 기타
-	- Dataset 클래스 형태로 API가 제공
-	- tf.data.TFRecordDataset은 tf.data.Dataset을 상속받은 클래스 (그러나 둘다 Dataset 객체로 취급됨)
-
+	- Dataset 클래스 형태로 API가 제공.
+	- tf.data.TFRecordDataset은 tf.data.Dataset을 상속받은 클래스 (그러나 둘다 Dataset 객체로 취급).
 
 ## 차이점 비교: tf.data.Dataset 와 np.load()
 ### 데이터 로딩방식
->결론: 수 GB 미만의 데이터셋은 tf.data.Dataset.from_tensor_slices()를 사용하는게 나음
+>결론: 수 GB 미만의 데이터셋은 tf.data.Dataset.from_tensor_slices()를 사용하는게 나음.
 
 **A. In-Memory 방식** (메모리 의존)
 - np.load():
