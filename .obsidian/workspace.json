@@ -23,12 +23,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/appearance.json",
-                "bFile": ".obsidian/appearance.json",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: appearance.json"
+              "title": "Diff: workspace.json"
             }
           },
           {
@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,8 +243,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b099d540d2a8976",
+  "active": "9099e579ef233cbb",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/Tracking 적용 시 시행착오.md",
     "obsidian/Study Notes/Machine Learning/Tensorflow/Keras 모델 저장 및 로드.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/misc/MLflow 아키텍처.md",
@@ -273,7 +274,6 @@
     "obsidian/Study Notes/Machine Learning/Tensorflow/기존 작성 문서들/사용자 정의 레이어(tf.keras.layer.Layers 상속).md",
     "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
     "obsidian/2025-12-15 (집) Azure 서버 관리.md",
-    "obsidian/Study Notes/Machine Learning/Tensorflow/학습데이터 로딩 (tf.data.Dataset & ~TFRecordDataset).md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/내용 정리",
     "obsidian/Study Notes/Machine Learning/Tensorflow/기존 작성 문서들",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image.png",
