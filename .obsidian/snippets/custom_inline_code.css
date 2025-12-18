@@ -1,0 +1,11 @@
+/* 편집 모드의 인라인 코드 색상 및 배경 */
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting) {
+    color: rgb(60, 166, 120) !important;
+    background-color: #f0f0f0d7 !important;
+}
+
+/* 읽기 모드의 인라인 코드 색상 및 배경 */
+.markdown-rendered :not(pre) > code {
+    color: rgb(60, 166, 120) !important;
+    background-color: #f0f0f0d7 !important;
+}

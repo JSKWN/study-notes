@@ -7,5 +7,7 @@
   "cssTheme": "",
   "accentColor": "",
   "nativeMenus": false,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "custom_inline_code"
+  ]
 }

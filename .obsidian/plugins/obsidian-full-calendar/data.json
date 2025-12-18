@@ -1,0 +1,21 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "hsl(calc(258 - 1), calc(88% * 1.01), calc(66% * 1.075))",
+      "directory": "obsidian"
+    },
+    {
+      "type": "ical",
+      "color": "#63b2d4",
+      "url": "https://calendar.google.com/calendar/ical/konjose94%40gmail.com/private-8683ba5af549d8191ab4b4d520f85c15/basic.ics"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "dayGridMonth",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}

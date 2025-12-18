@@ -8,49 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "992bd82be6f05364",
+            "id": "b8ad8466bc858457",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/Study Notes/Machine Learning/Tensorflow/데이터 로딩 (tf.data.Dataset & ~TFRecordDataset).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "데이터 로딩 (tf.data.Dataset & ~TFRecordDataset)"
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
             }
           },
           {
-            "id": "c045c110184e0e6f",
+            "id": "8b099d540d2a8976",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/appearance.json",
+                "bFile": ".obsidian/appearance.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: appearance.json"
+            }
+          },
+          {
+            "id": "5a7cfa63d271a650",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Study Notes/Journal/2025-12-15.md",
+                "file": "obsidian/Study Notes/Machine Learning/Tensorflow/Keras 모델 저장 및 로드.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-15"
-            }
-          },
-          {
-            "id": "c5af19242b4d0ece",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "obsidian/🗓️ Calendar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "🗓️ Calendar"
+              "title": "Keras 모델 저장 및 로드"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "beast",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5124969482422
+    "width": 347.5124969482422
   },
   "right": {
     "id": "17458680881655be",
@@ -205,16 +201,6 @@
             }
           },
           {
-            "id": "ad273721d489353b",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          },
-          {
             "id": "8f70d2e9ffa435d7",
             "type": "leaf",
             "state": {
@@ -241,80 +227,55 @@
       }
     ],
     "direction": "horizontal",
-    "width": 498.5
+    "width": 635.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 일일 노트 열기": false,
-      "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
-      "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "d936f822c7663fe6",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0076293bead60eb4",
-        "type": "window",
-        "children": [
-          {
-            "id": "9b2dbcb78fe90f56",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fd7c73981c51ff3b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "obsidian/Study Notes/Machine Learning/Tensorflow/사용자 정의 레이어(tf.keras.layer.Layers 상속).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "사용자 정의 레이어(tf.keras.layer.Layers 상속)"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 151,
-        "y": 50,
-        "width": 788,
-        "height": 1183,
-        "maximize": false,
-        "zoom": -1
-      }
-    ]
-  },
-  "active": "c5af19242b4d0ece",
+  "active": "8b099d540d2a8976",
   "lastOpenFiles": [
-    "obsidian/Study Notes/Journal/2025-12-15.md",
-    "obsidian/🗓️ Calendar.md",
-    "obsidian/Study Notes/Machine Learning/Tensorflow/사용자 정의 레이어(tf.keras.layer.Layers 상속).md",
-    "obsidian/Study Notes/Machine Learning/Tensorflow/데이터 로딩 (tf.data.Dataset & ~TFRecordDataset).md",
-    "obsidian/Study Notes/Machine Learning/Tensorflow/🔧 모델 저장 관련.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/Tracking 적용 시 시행착오.md",
+    "obsidian/Study Notes/Machine Learning/Tensorflow/Keras 모델 저장 및 로드.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/misc/MLflow 아키텍처.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/misc/MLflow 기초 사용법 요약.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/내용 정리 예정 로드맵.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Traking API.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/misc/기존 mlflow 적용 스크립트 모듈화 및 리팩토링.md",
+    "obsidian/Study Notes/Journal/2025-12-17.md",
+    "obsidian/Study Notes/Journal/2025-12-16.md",
+    "obsidian/Study Notes/Journal/LLM 요청 가이드라인.md",
+    "obsidian/Templates/blog_post_template.md",
+    "README.md",
+    "obsidian/Study Notes/etc/yaml 정리 및 파이썬 적용.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/misc",
+    "obsidian/Study Notes/etc/무제.md",
+    "obsidian/Attachments/image_gpt5_mini_performance_enhancing_copilot.png",
+    "().md",
+    "obsidian/Study Notes/Journal/Trial Notes/무제.md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 도입 노트",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking/Tracking.md",
     "obsidian/Study Notes/Journal/2025-11-28.md",
-    "obsidian/Study Notes/Journal/기술 탐색.md",
-    "obsidian/Study Notes/Journal/⭐ 기존 일지(~25년 12월)는 노션 참고.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 아키텍처.md",
-    "obsidian/Study Notes/Journal/2025-12-03.md",
     "obsidian/Study Notes/Journal/2025-12-02.md",
-    "obsidian/Study Notes/Computer Science/Cloud/Azure/실습 Blob Storage (2).md",
-    "obsidian/Study Notes/Computer Science/Cloud/Azure/실습 Blob Storage (1).md",
-    "obsidian/Study Notes/Computer Science/Cloud/Azure/실습 4. 부하분산장치 (로드밸런서).md",
-    "obsidian/Study Notes/Computer Science/Cloud/Azure/실습 3. 웹서버 생성.md",
-    "obsidian/Study Notes/Computer Science/Cloud/Azure/실습 2. DB 생성.md",
-    "obsidian/Study Notes/Computer Science/Cloud/Azure/실습 1. 가상머신(VM) 준비 및 인바운드 규칙 설정.md",
+    "obsidian/Study Notes/Journal/2025-12-03.md",
+    "obsidian/Study Notes/Journal/2025-12-15.md",
+    "obsidian/Study Notes/Machine Learning/Tensorflow/사용자 정의 레이어(tf.keras.layers.Layer 상속) 내용 요약.md",
+    "obsidian/Study Notes/Machine Learning/Tensorflow/기존 작성 문서들/사용자 정의 레이어(tf.keras.layer.Layers 상속).md",
+    "obsidian/Study Notes/Machine Learning/Model/Base Architecture/Transformer/디코더 'mask' 토큰 관련 (디코더에서 마스킹을 사용하는 이유).md",
+    "obsidian/2025-12-15 (집) Azure 서버 관리.md",
+    "obsidian/Study Notes/Machine Learning/Tensorflow/학습데이터 로딩 (tf.data.Dataset & ~TFRecordDataset).md",
+    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/내용 정리",
+    "obsidian/Study Notes/Machine Learning/Tensorflow/기존 작성 문서들",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image.png",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image-9.png",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image-8.png",
@@ -324,25 +285,11 @@
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image-4.png",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image-3.png",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image-2.png",
-    "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image-19.png",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_db_and_webserver",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_blob_storage",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지",
-    "obsidian/Study Notes/Computer Science/Cloud/K8S/쿠버네티스 자료조사 (+ docker & kubeflow).md",
-    "obsidian/Study Notes/Computer Science/Cloud/K8S/K8S Docs.md",
-    "obsidian/Study Notes/Computer Science/Languages/Python/딕셔너리(dict).md",
-    "obsidian/Study Notes/etc/yaml 정리 및 파이썬 적용.md",
-    "obsidian/Templates/표 너비 조절 템플릿.md",
-    "obsidian/Templates/blog_post_template.md",
-    "obsidian/Study Notes/Computer Science/Cloud/🔧 기타 내용 정리.md",
-    "obsidian/Study Notes/Computer Science/Cloud/K8S/임시.md",
-    "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started/Introduction.md",
     "obsidian/Study Notes/Machine Learning/Making LLMs more accurate by using all of their layers.pdf",
-    "obsidian/Study Notes/Computer Science/Cloud/Istio",
-    "obsidian/Study Notes/Journal/Trial Notes",
-    "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc/Getting Started",
-    "obsidian/Study Notes/Machine Learning/MLOps/Kubeflow/Kubeflow Doc",
-    "obsidian/Study Notes/Computer Science/Cloud/K8S"
+    "obsidian/Study Notes/Computer Science/Cloud/Istio"
   ]
 }

@@ -1,7 +1,9 @@
-`tf.keras.layers.Layer`를 상속받아 사용자 정의 레이어를 만들 때, Tensorflow의 ‘Graph Execution*’과 ‘Variable Management*’ 메커니즘을 위해 반드시 구현해야하는 메서드 존재. (그래프 실행은 속도, 성능의 이점)
+`tf.keras.layers.Layer`를 상속받아 사용자 정의 레이어를 만들 때, Tensorflow의 ‘Graph Execution’(그래프 실행은 속도, 성능의 이점)과 ‘Variable Management*’ 메커니즘을 위해 반드시 구현해야하는 메서드들 존재 
+	- variable management란 가중치, 편향 등
 
 텐서플로우 모델(Model) 및 레이어(Layer)를 상속받아 구현할 경우, 하위 클래스화된 모델을 직렬화하려면 구현자가 모델 레벨에서 `get_config()` 및 `from_config()` 메서드를 지정해야함
 
+텐서플로우는 “지연된 실행 (Lazy Execution)”을 따르며, 이는 가중치(Weight) 생성을 객체의 생성 시점이 아니라, 실제 데이터가 처음 들어오는 시점까지 
 
 ### 0. __init__(self, **kwargs)
 - **역할:** 객체 생성 및 하이퍼파라미터 초기화.

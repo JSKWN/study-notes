@@ -1,27 +1,3 @@
-- [[#1. 실험 추적 방식 선택 (Choose Your Approach)|1. 실험 추적 방식 선택 (Choose Your Approach)]]
-	- [[#1. 실험 추적 방식 선택 (Choose Your Approach)#🤖 자동 로깅 (Automatic Logging) - 설정 제로, 최대 범위|🤖 자동 로깅 (Automatic Logging) - 설정 제로, 최대 범위]]
-	- [[#1. 실험 추적 방식 선택 (Choose Your Approach)#🛠️ 수동 로깅 (Manual Logging) - 완전한 제어, 사용자 정의 워크플로우|🛠️ 수동 로깅 (Manual Logging) - 완전한 제어, 사용자 정의 워크플로우]]
-- [[#2. 핵심 로깅 함수 (Core Logging Functions)|2. 핵심 로깅 함수 (Core Logging Functions)]]
-	- [[#2. 핵심 로깅 함수 (Core Logging Functions)#설정 및 구성 (Setup & Configuration)|설정 및 구성 (Setup & Configuration)]]
-	- [[#2. 핵심 로깅 함수 (Core Logging Functions)#런 관리 (Run Management)|런 관리 (Run Management)]]
-	- [[#2. 핵심 로깅 함수 (Core Logging Functions)#데이터 로깅 (Data Logging)|데이터 로깅 (Data Logging)]]
-	- [[#2. 핵심 로깅 함수 (Core Logging Functions)#아티팩트 관리 (Artifact Management)|아티팩트 관리 (Artifact Management)]]
-	- [[#2. 핵심 로깅 함수 (Core Logging Functions)#모델 관리 (MLflow 3 신규 기능)|모델 관리 (MLflow 3 신규 기능)]]
-	- [[#2. 핵심 로깅 함수 (Core Logging Functions)#활성 모델 관리 (Active Model Management - MLflow 3 신규 기능)|활성 모델 관리 (Active Model Management - MLflow 3 신규 기능)]]
-- [[#3. 언어별 API 지원 범위 (Language-Specific API Coverage)|3. 언어별 API 지원 범위 (Language-Specific API Coverage)]]
-- [[#4. 고급 추적 패턴 (Advanced Tracking Patterns)|4. 고급 추적 패턴 (Advanced Tracking Patterns)]]
-	- [[#4. 고급 추적 패턴 (Advanced Tracking Patterns)#기록된 모델 다루기 (Working with Logged Models - MLflow 3 신규 기능)|기록된 모델 다루기 (Working with Logged Models - MLflow 3 신규 기능)]]
-		- [[#기록된 모델 다루기 (Working with Logged Models - MLflow 3 신규 기능)#외부 모델 생성 및 관리|외부 모델 생성 및 관리]]
-		- [[#기록된 모델 다루기 (Working with Logged Models - MLflow 3 신규 기능)#고급 모델 수명 주기 관리|고급 모델 수명 주기 관리]]
-		- [[#기록된 모델 다루기 (Working with Logged Models - MLflow 3 신규 기능)#기록된 모델 검색 및 조회|기록된 모델 검색 및 조회]]
-	- [[#4. 고급 추적 패턴 (Advanced Tracking Patterns)#정밀한 지표 추적 (Precise Metric Tracking)|정밀한 지표 추적 (Precise Metric Tracking)]]
-	- [[#4. 고급 추적 패턴 (Advanced Tracking Patterns)#실험 구성 (Experiment Organization)|실험 구성 (Experiment Organization)]]
-		- [[#실험 구성 (Experiment Organization)#부모-자식 관계를 가진 계층적 런 (Hierarchical Runs)|부모-자식 관계를 가진 계층적 런 (Hierarchical Runs)]]
-	- [[#4. 고급 추적 패턴 (Advanced Tracking Patterns)#병렬 실행 전략 (Parallel Execution Strategies)|병렬 실행 전략 (Parallel Execution Strategies)]]
-	- [[#4. 고급 추적 패턴 (Advanced Tracking Patterns)#정리를 위한 스마트 태깅 (Smart Tagging for Organization)|정리를 위한 스마트 태깅 (Smart Tagging for Organization)]]
-	- [[#4. 고급 추적 패턴 (Advanced Tracking Patterns)#시스템 태그 참조 (System Tags Reference)|시스템 태그 참조 (System Tags Reference)]]
-- [[#5. 자동 로깅과의 통합 (Integration with Auto Logging)|5. 자동 로깅과의 통합 (Integration with Auto Logging)]]
-
 # MLflow Tracking APIs
 
 MLflow Tracking은 머신러닝 실험을 캡처하기 위해 여러 프로그래밍 언어에 걸쳐 포괄적인 API를 제공합니다. 자동화된 계측(instrumentation)을 선호하든 세부적인 제어를 선호하든, MLflow는 귀하의 워크플로우에 맞춰 조정됩니다.

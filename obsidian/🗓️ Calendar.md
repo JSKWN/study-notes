@@ -1,1 +1,0 @@
-옵시디언 - 구글캘린더 연동 방법: https://analchem.tistory.com/22
