@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
+                "file": "obsidian/Study Notes/Journal/2025-12-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Speculative Decoding"
+              "title": "2025-12-19"
             }
           }
         ],
@@ -213,8 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 635.5,
-    "collapsed": true
+    "width": 635.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,11 +231,16 @@
   },
   "active": "5a7cfa63d271a650",
   "lastOpenFiles": [
+    "obsidian/Study Notes/Machine Learning/Tensorflow/학습데이터 로딩 (tf.data.Dataset & ~TFRecordDataset).md",
+    "obsidian/Study Notes/Machine Learning/Tensorflow/Keras 모델 저장 및 로드.md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/K,V 캐싱.md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/FlashAttention (임시).md",
     "obsidian/Study Notes/Machine Learning/System Efficiency/MoE (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/MQU, GQA (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/PagedAttention (임시).md",
+    "obsidian/Study Notes/Machine Learning/System Efficiency/Speculative Decoding.md",
     "obsidian/Study Notes/Journal/2025-12-19.md",
     "obsidian/Study Notes/Journal/2025-12-17.md",
-    "obsidian/Study Notes/Machine Learning/Tensorflow/Keras 모델 저장 및 로드.md",
     "obsidian/2025-12-15 (집) Azure 서버 관리.md",
     "conflict-files-obsidian-git.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/Tracking 적용 시 시행착오.md",
@@ -256,11 +260,6 @@
     "().md",
     "obsidian/Study Notes/Journal/Trial Notes/무제.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow 도입 노트",
-    "obsidian/Study Notes/Machine Learning/MLOps/MLflow/MLflow Doc/MLflow Build/Tracking/Tracking.md",
-    "obsidian/Study Notes/Journal/2025-11-28.md",
-    "obsidian/Study Notes/Journal/2025-12-02.md",
-    "obsidian/Study Notes/Journal/2025-12-03.md",
-    "obsidian/Study Notes/Journal/2025-12-15.md",
     "obsidian/Study Notes/Machine Learning/MLOps/MLflow/내용 정리",
     "obsidian/Study Notes/Machine Learning/Tensorflow/기존 작성 문서들",
     "obsidian/Study Notes/Computer Science/Cloud/Azure/방송통신대학 실습이미지/img_load_balance/image.png",
